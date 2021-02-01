@@ -1,1 +1,47 @@
-{"title":"get-involved"}
+{
+  "title": "get-involved",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<h1><strong>Get Involved</strong></h1>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#FFFFFF",
+      "backgroundImg": "/white-swan-bg2.webp",
+      "padding": "24",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/partners-copy-thumbnail.webp\"></p><p></p><p><a href=\"/get-involved/partners\">BE A PARTNER</a></p>",
+      "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/donate-thumbnail.webp\"></p><p></p><p></p><p><a href=\"/get-involved/donate\">DONATE</a></p>",
+      "width": "quarterCenterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/volunteers-copy-thumbnail.webp\"></p><p><a href=\"/get-involved/volunteer\">VOLUNTEER</a></p>",
+      "width": "quarterCenterRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/Webp.net-compress-image-1.webp\"></p><p></p><p><a href=\"/work-with-us\">WORK WITH US</a></p>",
+      "width": "quarterRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "textAlign": "center"
+    }
+  ]
+}
