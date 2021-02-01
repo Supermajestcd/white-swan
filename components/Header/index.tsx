@@ -42,7 +42,7 @@ export const Header = ({ data }: Props) => {
             <Flex maxW='xl' m='auto' p='3' justify='space-between' align={'center'}>
               <Link href='/'>
                 <>
-                  <ImageComponent src='/logo.png' width='200px' alt='logo'/>
+                  <ImageComponent src='/logo.png' width='60px' alt='logo'/>
                 </>
               </Link>
               <Flex>

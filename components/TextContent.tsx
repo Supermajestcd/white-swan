@@ -12,14 +12,15 @@ interface Props {
     textColor?: string,
     textAlign?: Property.TextAlign
     padding?: string,
-    width?: string
+    width?: string,
+    backgroundImg?: string
   }
 }
 
 export const TextContent = ({ index, data }: Props) => {
-  const { html, bgColor = 'transparent', textColor, textAlign = 'left', padding = '3', width = widths.container.name } = data
+  const { html, bgColor = 'transparent', textColor, textAlign = 'left', padding = '3', width = widths.container.name, backgroundImg } = data
   return (
-    <GridItem bg={bgColor} gridColumn={widths[width].val} key={index}>
+    <GridItem bg={backgroundImg || bgColor} gridColumn={widths[width].val} key={index}>
       <BlocksControls index={index} insetControls label={false}>
           <Box maxW='100%' m='auto' p={padding} textColor={textColor} textAlign={textAlign}>
             <InlineWysiwyg
@@ -66,6 +67,14 @@ export const TextContentTemplate = {
       name: 'textAlign',
       label: 'Text Alignment',
       options: ['Left', 'center', 'right']
+    },
+    {
+      label: 'Background Image',
+      name: 'backgroundImg',
+      component: 'image',
+      parse: (media) => `/${media.filename}`,
+      uploadDir: () => '/',
+      required: true
     }
   ]
 }

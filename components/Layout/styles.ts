@@ -1,6 +1,9 @@
 import styled from '@emotion/styled'
 
 export const Container = styled.div`
+body {
+  font-family: "Montserrat",sans-serif;
+}
 h1 {
   font-size: 3rem;
 }
@@ -19,7 +22,10 @@ h5 {
 h6 {
  font-size: 1rem;
 }
-[class^="MenuOption"] {
+p {
+  min-height: 1rem;
+}
+[class^="MenuOption"], [class^="LinkInput"] {
  color: black !important;
 }
 img {

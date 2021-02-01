@@ -25,11 +25,11 @@ export const Layout = ({ children, global = dummyGlobal }: Props) => {
         <Container>
           {children}
         </Container>
-      <footer>
-        <Box maxW='xl' justifyContent='center' m='auto' p='3'>
-          <Text fontSize="xs" >Copyright footer text</Text>
+      <Box as='footer' borderTop='solid 1px #E2E8F0' mt='10'>
+        <Box maxW='xl' justifyContent='center' m='auto' p='10'>
+          <Text fontSize="xs" color="#666666" textAlign='center'> White Swan is a registered charity in England and Wales (1176486). Registered office: 15th Floor, WeWork Building, 10 York Road, London, SE1 7ND </Text>
         </Box>
-      </footer>
+      </Box>
     </>
   )
 }
