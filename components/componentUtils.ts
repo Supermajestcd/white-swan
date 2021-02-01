@@ -67,6 +67,14 @@ export const widthField = {
       label: 'Quarter width, left aligned'
     },
     {
+      value: widths.quarterCenterLeft.name,
+      label: 'Quarter width, center left aligned'
+    },
+    {
+      value: widths.quarterCenterRight.name,
+      label: 'Quarter width, center right aligned'
+    },
+    {
       value: widths.quarterRight.name,
       label: 'Quarter width, right aligned'
     },

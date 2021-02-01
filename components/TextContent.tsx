@@ -23,7 +23,7 @@ export const TextContent = ({ index, data }: Props) => {
   return (
     <GridItem bg={bgColor} bgImg={`url('${backgroundImg}')`} bgSize='cover' bgPos='center' gridColumn={widths[width].val} key={index}>
       <BlocksControls index={index} insetControls label={false}>
-          <Box maxW='100%' m='auto' p={padding} textColor={textColor} textAlign={textAlign} className={isLinkButtons ? 'linkButton' : ''}>
+          <Box maxW='100%' m='auto' p={padding} textColor={textColor} textAlign={textAlign} className={isLinkButtons ? 'linkButton' : 'link'}>
             <InlineWysiwyg
               name='html'
               format='html'

@@ -7,6 +7,7 @@ body {
 h1, h2, h3, h4, h5, h6, p, span, input {
   font-family: 'Montserrat', sans-serif;
 }
+
 h1 {
   font-size: 3rem;
 }
@@ -28,15 +29,24 @@ h6 {
 p {
   min-height: 1rem;
 }
+.link a {
+  color: #99cc33;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link a:hover {
+  text-decoration: underline;
+}
 .linkButton a {
   border: 2px solid;
   padding: 6px 24px;
   border-radius: 24px;
   margin: 12px 0px;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .linkButton a:hover {
   opacity: 1;
+  color: inherit;
 }
 [class^="MenuOption"], [class^="LinkInput"] {
  color: black !important;
