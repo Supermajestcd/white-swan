@@ -1,1 +1,31 @@
-{"title":"partners"}
+{
+  "title": "partners",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<h1>PARTNERS</h1><p></p><p></p><p></p><p></p><p></p><p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#FFFFFF",
+      "padding": "20",
+      "textAlign": "center",
+      "backgroundImg": "/partners.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p>We seek partners who we can help by leveraging our analytics expertise or whose skills, capabilities and/or technology can help us achieve our charitable mission – to prevent ill health, accelerate the path to diagnosis and improve the effectiveness of treatment.</p><p></p><p>By partnering with us on Million Minds specifically you will help those suffering undiagnosed, with the opportunity to share our unique insight into:</p><p></p><ul><li><p>Life as an undiagnosed patient</p></li><li><p>How patients currently manage their symptoms and conditions</p></li><li><p>The pre, during and post diagnosis patient journey</p></li><li><p>Patient perspective on treatments and therapies</p></li></ul><p></p><p>If you are interested in finding out more about being a partner, please contact us at hello@whiteswan.org.uk.</p><p></p><p>Learn about us:</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "4"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/volunteers-copy-thumbnail.webp\"></p><p></p><p></p><p><a href=\"/volunteer\">VOLUNTEER</a></p>",
+      "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "textAlign": "center"
+    }
+  ]
+}
