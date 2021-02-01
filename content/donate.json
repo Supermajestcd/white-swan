@@ -1,1 +1,14 @@
-{"title":"donate"}
+{
+  "title": "donate",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<h1 class=\"headline\">Donate</h1><p></p><p>We rely on donations, grants, philanthropy, the generosity of the public and contributions from private sector partners to achieve our mission.</p><p>To donate to us, please get in touch at&nbsp;<a href=\"mailto:hello@whiteswan.org.uk\">hello@whiteswan.org.uk</a>. </p><p></p><p>We really value your support and would love to hear from you. Thank you!</p><p>A copy of our accounts can be viewed on the charity commission website.</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
+    }
+  ]
+}
