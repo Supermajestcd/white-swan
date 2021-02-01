@@ -2,6 +2,11 @@
   "header": {
     "navigation": [
       {
+        "name": "Home",
+        "link": "/",
+        "id": "lauzulb5x"
+      },
+      {
         "name": "About Us",
         "link": "/whiteswan",
         "id": "bszdajk0j"
@@ -20,11 +25,6 @@
         "name": "Blog",
         "link": "/blog",
         "id": "p89oixhoh"
-      },
-      {
-        "name": "Home",
-        "link": "/",
-        "id": "lauzulb5x"
       },
       {
         "name": "Contact Us",
