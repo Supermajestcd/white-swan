@@ -2,6 +2,11 @@
   "header": {
     "navigation": [
       {
+        "name": "Contact Us",
+        "link": "/contact-us",
+        "id": "m9xr53koh"
+      },
+      {
         "name": "Home",
         "link": "/",
         "id": "lauzulb5x"
