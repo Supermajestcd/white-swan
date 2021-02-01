@@ -49,7 +49,8 @@ export default class Site extends App {
       authCallbackRoute: '/api/create-github-access-token',
       clientId: process.env.GITHUB_CLIENT_ID,
       baseRepoFullName: process.env.REPO_FULL_NAME, // e.g: tinacms/tinacms.org,
-      baseBranch: process.env.BASE_BRANCH // e.g. 'master' or 'main' on newer repos
+      baseBranch: process.env.BASE_BRANCH, // e.g. 'master' or 'main' on newer repos
+      authScope: 'repo'
     })
 
     this.cms = new TinaCMS({
