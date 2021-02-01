@@ -19,6 +19,14 @@ export const widths = {
     name: 'quarterLeft',
     val: '2/ span 1'
   },
+  quarterCenterLeft: {
+    name: 'quarterCenterLeft',
+    val: '3 / span 1'
+  },
+  quarterCenterRight: {
+    name: 'quarterCenterRight',
+    val: '4 / span 1'
+  },
   quarterRight: {
     name: 'quarterRight',
     val: 'span 1 / 6'

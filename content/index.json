@@ -3,23 +3,26 @@
   "blocks": [
     {
       "_template": "textContent",
-      "html": "<p></p><h2 class=\"headline\">Welcome to White Swan</h2><p></p><p>We are a registered charity with a mission to improve the health of society<br>through technology and analytics.</p><p></p><p></p><p><a href=\"/whiteswan\">LEARN MORE</a></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>",
+      "html": "<p></p><h1 >Welcome to White Swan</h1><p></p><p>We are a registered charity with a mission to improve the health of society<br>through technology and analytics.</p><p></p><p></p><p><a href=\"/whiteswan\">LEARN MORE</a></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>",
       "width": "full",
       "bgColor": "#4A90E2",
       "textAlign": "center",
       "textColor": "#FFFFFF",
-      "backgroundImg": "/white-swan-bg1.webp"
+      "backgroundImg": "/white-swan-bg1.webp",
+      "isLinkButtons": true
     },
     {
       "_template": "textContent",
-      "html": "<p></p><h2 class=\"headline\">Our Story</h2><p></p><p>In 2015, Julie King was wheelchair-bound and in danger of losing her life. For 8 years her health had been deteriorating, yet despite countless tests, doctors were at a loss to explain her condition. Her family was told to prepare for the worst.</p><p></p><p></p><p><a href=\"/whiteswan/our-story/\">LEARN MORE</a></p><p></p><p></p>",
+      "html": "<p></p><h2>Our Story</h2><p></p><p>In 2015, Julie King was wheelchair-bound and in danger of losing her life. For 8 years her health had been deteriorating, yet despite countless tests, doctors were at a loss to explain her condition. Her family was told to prepare for the worst.</p><p></p><p></p><p><a href=\"/whiteswan/our-story/\">LEARN MORE</a></p><p></p><p></p>",
       "width": "container",
       "textAlign": "center",
-      "padding": "10"
+      "padding": "10",
+      "textColor": "#666666",
+      "isLinkButtons": true
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/mission-thumbnail.webp\"></p><p>OUR MISSION</p>",
+      "html": "<p><img src=\"/mission-thumbnail.webp\"></p><p></p><p><a href=\"/our-work/how-we-can-help\">OUR MISSION</a></p>",
       "width": "quarterLeft",
       "textColor": "#7ED321",
       "textAlign": "center"

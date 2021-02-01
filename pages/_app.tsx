@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { ChakraProvider, extendTheme, ThemeConfig } from '@chakra-ui/react'
 import App from 'next/app'
+import Head from 'next/head'
 import { TinaCMS, TinaProvider } from 'tinacms'
 import {
   GithubClient,
@@ -70,10 +71,15 @@ export default class Site extends App {
     )
   }
 
-  render() {
+  render () {
     const { Component, pageProps } = this.props
     return (
       <TinaProvider cms={this.cms}>
+        <Head>
+          <link rel="preconnect" href="https://fonts.gstatic.com"/>
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/> 
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        </Head>
         <TinacmsGithubProvider
           onLogin={onLogin}
           onLogout={onLogout}

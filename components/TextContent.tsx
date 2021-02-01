@@ -14,15 +14,16 @@ interface Props {
     padding?: string,
     width?: string,
     backgroundImg?: string
+    isLinkButtons: boolean
   }
 }
 
 export const TextContent = ({ index, data }: Props) => {
-  const { html, bgColor = 'transparent', textColor, textAlign = 'left', padding = '3', width = widths.container.name, backgroundImg } = data
+  const { html, bgColor = 'transparent', textColor, textAlign = 'left', padding = '3', width = widths.container.name, backgroundImg, isLinkButtons = false } = data
   return (
-    <GridItem bg={backgroundImg || bgColor} gridColumn={widths[width].val} key={index}>
+    <GridItem bg={bgColor} bgImg={`url('${backgroundImg}')`} bgSize='cover' bgPos='center' gridColumn={widths[width].val} key={index}>
       <BlocksControls index={index} insetControls label={false}>
-          <Box maxW='100%' m='auto' p={padding} textColor={textColor} textAlign={textAlign}>
+          <Box maxW='100%' m='auto' p={padding} textColor={textColor} textAlign={textAlign} className={isLinkButtons ? 'linkButton' : ''}>
             <InlineWysiwyg
               name='html'
               format='html'
@@ -47,7 +48,9 @@ export const TextContentTemplate = {
   label: 'Text and Image content',
   defaultItem: {
     html: '<p>Add text here</p>',
-    width: widths.container.name
+    width: widths.container.name,
+    isLinkButtons: false,
+    textColor: '#666666'
   },
   fields: [
     widthField,
@@ -75,6 +78,12 @@ export const TextContentTemplate = {
       parse: (media) => `/${media.filename}`,
       uploadDir: () => '/',
       required: true
+    },
+    {
+      component: 'toggle',
+      default: false,
+      label: 'Make links buttons?',
+      name: 'isLinkButtons'
     }
   ]
 }

@@ -2,7 +2,10 @@ import styled from '@emotion/styled'
 
 export const Container = styled.div`
 body {
-  font-family: "Montserrat",sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, span, input {
+  font-family: 'Montserrat', sans-serif;
 }
 h1 {
   font-size: 3rem;
@@ -24,6 +27,16 @@ h6 {
 }
 p {
   min-height: 1rem;
+}
+.linkButton a {
+  border: 2px solid;
+  padding: 6px 24px;
+  border-radius: 24px;
+  margin: 12px 0px;
+  opacity: 0.9;
+}
+.linkButton a:hover {
+  opacity: 1;
 }
 [class^="MenuOption"], [class^="LinkInput"] {
  color: black !important;
