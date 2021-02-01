@@ -2,14 +2,9 @@
   "header": {
     "navigation": [
       {
-        "name": "link 1",
+        "name": "Home",
         "link": "/",
         "id": "lauzulb5x"
-      },
-      {
-        "name": "Another link",
-        "link": "/",
-        "id": "7376jjwgg"
       }
     ]
   }
