@@ -1,1 +1,23 @@
-{"title":"work-with-us"}
+{
+  "title": "work-with-us",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<h1>Work with us</h1>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#FFFFFF",
+      "padding": "20",
+      "textAlign": "center",
+      "backgroundImg": "/workwithus.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p>White Swan is lucky enough receive support from over 100 volunteers globally for which we are hugely appreciative. During the development of some projects, we are fortunate enough to secure funding for paid roles, the details for which will be available below. If you are interested in applying for any of the jobs listed, or know someone who might be, please apply by sending a covering letter and CV to&nbsp;<a href=\"mailto:hello@whiteswan.org.uk\">hello@whiteswan.org.uk</a>&nbsp;and either Beth or Miranda will be in touch.</p><p></p><h4>Current positions:</h4><p></p><p>We don’t have any open roles at present but volunteer for us and you’ll be the first to know when paid roles come up.</p><p></p><p></p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    }
+  ]
+}
