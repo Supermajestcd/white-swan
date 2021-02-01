@@ -22,7 +22,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/mission-thumbnail.webp\"></p><p></p><p><a href=\"/our-work/how-we-can-help\">OUR MISSION</a></p>",
+      "html": "<p><img src=\"/mission-thumbnail.webp\"></p><p></p><p><a href=\"/whiteswan/our-mission\">OUR MISSION</a></p>",
       "width": "quarterLeft",
       "textColor": "#7ED321",
       "textAlign": "center"
