@@ -26,6 +26,63 @@
       "width": "quarterLeft",
       "textColor": "#7ED321",
       "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/team-thumbnail.webp\"></p><p></p><p><a href=\"/whiteswan/our-team/\">OUR TEAM</a></p>",
+      "width": "quarterCenterLeft",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/team-thumbnail.webp\"></p><p></p><p><a href=\"/get-involved/donate/\">DONATE</a></p>",
+      "width": "quarterCenterRight",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/team-thumbnail.webp\"></p><p></p><p><a href=\"/million-minds-helping-those-suffering-undiagnosed-find-a-diagnosis/\">MILLION MINDS</a></p>",
+      "width": "quarterRight",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><p></p><p></p><p></p><h1>Our Work</h1><p>We create tools and insights that give us a better understanding of how we can improve health.</p><p></p><p></p><p></p><p><a href=\"/our-work/how-we-can-help/\">LEARN MORE</a></p><p></p>",
+      "width": "container",
+      "isLinkButtons": true,
+      "textColor": "#666666",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/how-we-can-help-copy-thumbnail2.webp\"></p><p></p><p><a href=\"our-work/how-we-can-help/\">HOW WE CAN HELP</a></p>",
+      "width": "quarterLeft",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/how-we-do-it-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/how-we-do-it/\">HOW WE DO IT</a></p>",
+      "width": "quarterCenterLeft",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/who-we-work-with-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/who-we-work-with/\">WHO WE WORK WITH</a></p>",
+      "width": "quarterCenterRight",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/case-studies-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/case-studies/\">CASE STUDIES</a></p>",
+      "width": "quarterRight",
+      "textColor": "#7ED321",
+      "textAlign": "center"
     }
   ]
 }
