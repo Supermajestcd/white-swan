@@ -21,7 +21,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/donate-thumbnail.webp\"></p><p></p><p></p><p><a href=\"/get-involved/donate\">DONATE</a></p>",
+      "html": "<p><img src=\"/donate-thumbnail.webp\"></p><p></p><p></p><p><a href=\"/donate\">DONATE</a></p>",
       "width": "quarterCenterLeft",
       "isLinkButtons": false,
       "textColor": "#666666",
@@ -29,7 +29,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/volunteers-copy-thumbnail.webp\"></p><p><a href=\"/get-involved/volunteer\">VOLUNTEER</a></p>",
+      "html": "<p><img src=\"/volunteers-copy-thumbnail.webp\"></p><p><a href=\"/volunteer\">VOLUNTEER</a></p>",
       "width": "quarterCenterRight",
       "isLinkButtons": false,
       "textColor": "#666666",
