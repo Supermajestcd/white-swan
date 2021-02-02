@@ -1,1 +1,56 @@
-{"title":"how-we-can-help"}
+{
+  "title": "how-we-can-help",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<h1>HOW WE CAN HELP</h1>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "20",
+      "textAlign": "center",
+      "backgroundImg": "/how-we-can-help.webp",
+      "bgColor": "#FFFFFF"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p>We create tools and insights which improve our holistic understanding of how we can help ourselves, help those who can help us, and help others in the process, by leveraging proprietary technology and leading-edge data science capability, fuelled by people-generated real time data and the world’s biggest health library – the internet.</p><p></p><p>Our aim is to deliver affordable – and wherever possible free – access to our technology tools and insights for not-for-profits and individuals. We also encourage others to share IP through our technology platform with other not-for-profits, in order to help achieve our mission.</p><p></p><h5>OUR TOOLS</h5><p></p><p>Our tools are designed to help others find help, give a holistic view on their health and spot patterns to help people understand the role of lifestyle and the environment as well as medical intervention in living well:</p><p><br>– <strong>Querying</strong> the world’s biggest health library – the Internet<br>– <strong>Displaying</strong> lifestyle, environmental and symptom patterns to help understand triggers and causes<br>– <strong>Nudging action</strong>&nbsp;to help support people to get and stay healthy</p><p></p><h5>OUR INSIGHT</h5><p></p><p>We have a huge amount of data at our fingertips: some already publicly available (such as the weather, pollen count, air quality to name just a few), others available through agreements with partner organisations (like social data). This gives us access to invaluable context, allowing us to conduct secondary analytical research to combine these and in turn create new powerful insights by seeing patterns in the data.</p><p></p><p>We offer a window to the biggest focus group in the world – the Internet. This means we can tell you what’s being said, by whom, where and when, and understand the context of the conversation. We can also do this from other data sources such as free text in letters, comments and patient feedback. This informs both policies and research as well as furthering understanding of how we can help people get and stay healthy.</p><p></p><p>For example, we can already predict outbreaks of cold and flu across the country and accident and emergency admittance rates at hospitals. We have also tracked the patient journey to generate insight to accelerate diagnosis and improve the effectiveness of treatment for the millions of sufferers of conditions such as dementia, arthritis and mental health.</p><p></p><p>Learn more about our work here:</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/how-we-do-it-copy-thumbnail2.webp\"></p><p></p><p></p><p><a href=\"/how-we-do-it\">HOW WE DO IT</a></p>",
+      "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/who-we-work-with-copy-thumbnail2.webp\"></p><p></p><p></p><p><a href=\"/who-we-work-with\">WHO WE WORK WITH</a></p>",
+      "width": "quarterCenterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/case-studies-copy-thumbnail2.webp\"></p><p></p><p></p><p><a href=\"/case-studies\">CASE STUDIES</a></p>",
+      "width": "quarterCenterRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/million-minds.webp\"></p><p></p><p><a href=\"/million-minds-helping-those-suffering-undiagnosed-find-a-diagnosis/\">MILLION MINDS</a></p>",
+      "width": "quarterRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "textAlign": "center"
+    }
+  ]
+}
