@@ -1,0 +1,31 @@
+{
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<h1>Our Work</h1><p></p><p></p><p>We create tools and insights that give us a better understanding of how we can improve health.</p><p></p><p></p><p><a href=\"/how-we-can-help\">LEARN MORE</a></p><p></p>",
+      "width": "container",
+      "isLinkButtons": true,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p>Todo:  5 columns</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "4"
+    },
+    {
+      "_template": "textContent",
+      "html": "<h1>Support us in our work</h1><p></p><p></p><p><a href=\"/partner\">BECOME A PARTNER</a></p>",
+      "width": "full",
+      "isLinkButtons": true,
+      "textColor": "#5E5E5E",
+      "padding": "20",
+      "bgColor": "#B8E986",
+      "textAlign": "center"
+    }
+  ]
+}
