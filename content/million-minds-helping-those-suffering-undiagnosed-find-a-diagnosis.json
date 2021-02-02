@@ -1,1 +1,23 @@
-{"title":"million-minds-helping-those-suffering-undiagnosed-find-a-diagnosis"}
+{
+  "title": "million-minds-helping-those-suffering-undiagnosed-find-a-diagnosis",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><h1>Million Minds – Harnessing the wisdom of the world to help patients find a diagnosis faster</h1><p></p><p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#FFFFFF",
+      "padding": "20",
+      "textAlign": "center",
+      "backgroundImg": "/cropped-Webp.net-compress-image-1.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><h5>WHAT IS MILLION MINDS?</h5><p></p><p>At White Swan, we believe that no one should suffer unnecessarily not knowing what is wrong with them or what to do about it. So we created Million Minds, an app that combines collective patient experience with enhanced symptom tracking to help patients and their doctors find a diagnosis faster.&nbsp;</p><p></p><p>Million Minds uses the same technology <a href=\"https://whiteswan.org.uk/whiteswan/\">that helped Julie</a>, but it automates and accelerates the process so that White Swan can reach the millions of people whose symptoms are undiagnosed.</p><p></p><p>We work with experts in the fields of medically unexplained symptoms (MUS) and clinical informatics to make sure that people living with undiagnosed conditions get the best support possible to manage the uncertainty of living without a diagnosis while looking for answers.</p><p></p><h5>HOW DOES IT WORK?</h5><p></p><p>Leveraging Black Swan’s proprietary technology, leading-edge natural language processing and analytics, Million Minds:</p><p></p><ul><li><p>Enables users to track their symptoms and lifestyle factors (including their diet, sleep habits, and exercise), and summarises these intelligently, highlighting patterns, and allowing people to share these insights with their doctors.</p></li><li><p>Gives users a unique view into the collective experiences of millions of other people by identifying matches between their symptoms, highlighting rarer conditions that their doctors may not have considered before.</p></li><li><p>Helps users understand and interact with online conversations among people with similar symptoms and signposts potentially useful content to help people help each other.</p></li></ul><p></p><p>The Million Minds app is constantly learning, using user feedback to refine the experience and improve the search and filtering results.</p><p></p><p></p><h5>WHO WILL BENEFIT FROM MILLION MINDS?&nbsp;</h5><p></p><p>Since we shared Julie’s story, we’ve been contacted by many people also seeking a diagnosis. We knew we couldn’t address every person individually, so we wanted to make a tool that could help people at scale.</p><p></p><p>We want to make Million Minds available to help any person with undiagnosed symptoms. Figures from the Royal College of Psychiatrists and the <em>British Medical Journal</em> estimate that these individuals number 5 million in the UK alone, and approximately 500 million people worldwide.</p><p></p><p>We also want to lighten the load on clinicians and healthcare budgets, as undiagnosed patients often go through multiple referrals and appointments, seeing on average 8 different doctors.&nbsp; We want to help patients help their doctors to help them.</p><p></p><p>Speaking to undiagnosed people, we have found that the anxiety of living without answers is often worse than the symptoms themselves. Speeding up the time to diagnosis can reduce the period of worry and lessen the disruption that people face with multiple visits to healthcare professionals.</p><p></p><p>Of course, we cannot guarantee that every user will get to a diagnosis with their doctors by using the Million Minds app, but we hope to help them along the journey, giving unique insight into their symptoms and the experiences shared by other people with similar symptoms.</p><p></p><p></p><h5>HOW CAN YOU HELP?</h5><p></p><p>Million Minds is an ambitious project that requires a significant level of time and investment to deliver successfully. We are lucky to benefit from the time and expertise of over 100 volunteers but are always looking for partners who can help us on the journey. If you have expertise in funding applications, app development, medicine, health technology, product development, nutrition and wellbeing, or other relevant areas of this project, please get in touch. You can reach us at hello@whiteswan.org.uk.</p><p></p><p>To stay up to date on our progress, follow us on LinkedIn, where we’ll be sharing regular updates on the development.</p><p></p><p>Learn more about our work here:</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "5"
+    }
+  ]
+}
