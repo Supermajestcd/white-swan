@@ -1,1 +1,157 @@
-{"title":"our-team"}
+{
+  "title": "our-team",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><p></p><h1>OUR TEAM</h1><p></p><p></p><p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#FFFFFF",
+      "padding": "20",
+      "textAlign": "center",
+      "backgroundImg": "/pexels-photo-2078961-e1496139257454.jpg"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>CHIEF EXECUTIVE OFFICER</strong></p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "Left"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/miranda.webp\"></p>",
+      "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>MIRANDA MAPLETON.&nbsp;</strong></p><p>Miranda looks after all things White Swan. As a Director in global organisations like PepsiCo and Mars for over 17 years, she understands the demands that everyday life can place on our ability to stay healthy and is passionate about seeking ways to help others create a lifestyle that promotes wellness. When she’s not ‘White-Swanning’ she’s usually out walking or running in the West Country hills!</p>",
+      "width": "threeQuarterRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "5"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>OPERATIONS DIRECTOR</strong></p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "Left"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/Beth-Fordham-Pic.webp\"></p>",
+      "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>BETH FORDHAM.</strong>&nbsp;</p><p>Beth looks after White Swan’s clients and volunteers on a day to day basis. With 15 years experience in the digital sector she’s worked with data scientists, analysts and technologists in the delivery of data insights projects and now enjoys applying that knowledge to the world of health and wellness. When not at the computer, Beth enjoys getting out into the countryside with her family and dogs and trying to stay on top of her garden!</p>",
+      "width": "threeQuarterRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "5"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>TRUSTEES</strong></p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "Left"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/john1.webp\"></p>",
+      "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>JOHN CLIFT.</strong> </p><p>John has been a technologist professionally since 1985, and by inclination since his childhood. He spent 25 years at the Walt Disney Company where he was an Executive Director for Walt Disney International, leading the Data Technology team. He is currently an independent consultant and business advisor.&nbsp; Following studies at the Oxford Said Business School, he has also developed his Scenario Planning practise, a fascinating and productive approach to strategic thinking. He’s our IT and data guru, and he helps guide us to make the most of data.&nbsp; John is also a writer and musician.</p>",
+      "width": "threeQuarterRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "5"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/paul.webp\"></p>",
+      "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>PAUL CLIFT.</strong> </p><p>Paul is a Consultant Cardiologist at the University Hospital Birmingham as well as a National Institute for Health Research Cardiovascular Specialty Lead. He has also been an Honorary Consultant Cardiologist at Birmingham Children’s Hospital NHS Foundation for 10 years. Having spent over 20 years working in the NHS, he brings a wealth of clinical experience and a passion for innovation that will enable better patient outcomes – whether through prevention or treatment, especially in the rare diseases area.</p>",
+      "width": "threeQuarterRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "5"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/philip1.webp\"></p>",
+      "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>PHILIP HEDGES.</strong></p><p>Philip founded the highly successful UK business advisory and chartered accountancy firm Ecovis which has won numerous professional awards and is represented in over 70 countries. He has a passion for philanthropy and helping entrepreneurs succeed and brings extensive experience to White Swan. He enjoys most outdoor leisure activities and the conservation of heritage sites when he’s not appreciating the arts in the city.</p>",
+      "width": "threeQuarterRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "5"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>ADVISORS</strong></p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "Left"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/debbie1.webp\"></p>",
+      "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>DEBBIE SIMMONS.&nbsp;</strong></p><p>Debbie founded her own highly successful multi-million- pound marketing agency The Big Kick, working with clients like PepsiCo, Whitbread, Nivea, Muller and General Mills. With 25 years of experience working across a variety of industries and business challenges, she brings a wealth of expertise, energy and enthusiasm to White Swan. She’s also a big yoga lover and has perfected an impressive headstand!</p>",
+      "width": "threeQuarterRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "5"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p></p><p><strong>VOLUNTEERS</strong></p><p></p><p>We are lucky to have over 100 volunteers with expertise in different fields, including data science, computer science, insights, marketing, health, medicine and environmental science. If you are interested in volunteering please <a href=\"https://whiteswan.org.uk/get-involved/volunteer/\">click here</a>.</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p></p><p><strong>OUR FRIENDS AT BLACK SWAN</strong></p><p></p><p>We are grateful for the support of Black Swan who also give us access to over 250 staff across the globe ‘at cost’, with specialist expertise in data science, insights, software development and solutions architecture.</p><p></p><p>Learn more about us:</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    }
+  ]
+}
