@@ -1,1 +1,23 @@
-{"title":"how-we-do-it"}
+{
+  "title": "how-we-do-it",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><h1>HOW WE DO IT</h1><p></p><p></p><p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#FFFFFF",
+      "textAlign": "center",
+      "padding": "20",
+      "backgroundImg": "/how-we-do-it.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p>White Swan has a&nbsp;specialist capability in prediction and pattern recognition using data analytics. This means combining hundreds of data sources, identifying signals in the data, and showing how these signals can be interpreted.&nbsp; It can lead to quite small signals providing very useful information.</p><p></p><p>White Swan combines two key ingredients to help solve problems for our partners: Firstly, we leverage&nbsp;<a href=\"https://www.blackswan.com/\">Black Swan</a>’s proprietary technology (“The Nest”) and their expert data technology team. They use natural language processing (extracting meaning from text), machine learning techniques (training up the technology to tackle specific questions) and other approaches to making sense out of complex data sets. Secondly, our brilliant people use ground-breaking solutions to complex problems, using cutting-edge data science combined with expertise across insights, marketing, computer science, health and environmental science fields.</p><p></p><p></p><h5>HOW WE WORK WITH DATA</h5><p></p><p>We are passionate about using data and analytics for good – to help improve the health of society.&nbsp; We only utilise anonymised data for our insights work and tools.&nbsp; We don’t monetise data, we don’t distribute data to other parties and we don’t use data for any other purpose than improving health.&nbsp; Once we have managed to extract as much value out of the data to achieve our objective of improving health we destroy the data.&nbsp; We comply with all the appropriate legislation (such as GDPR).&nbsp; In the very rare case that we help individuals who have approached us asking for help, we treat their data in the strictest confidence.</p><p></p><p>Learn more about our work here:</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "5"
+    }
+  ]
+}
