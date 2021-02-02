@@ -50,7 +50,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p></p><p></p><p></p><p></p><p></p><h1>Our Work</h1><p>We create tools and insights that give us a better understanding of how we can improve health.</p><p></p><p></p><p></p><p><a href=\"/our-work/how-we-can-help/\">LEARN MORE</a></p><p></p>",
+      "html": "<p></p><p></p><p></p><p></p><p></p><h1>Our Work</h1><p>We create tools and insights that give us a better understanding of how we can improve health.</p><p></p><p></p><p></p><p><a href=\"/how-we-can-help/\">LEARN MORE</a></p><p></p>",
       "width": "container",
       "isLinkButtons": true,
       "textColor": "#666666",
@@ -58,7 +58,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/how-we-can-help-copy-thumbnail2.webp\"></p><p></p><p><a href=\"our-work/how-we-can-help/\">HOW WE CAN HELP</a></p>",
+      "html": "<p><img src=\"/how-we-can-help-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/how-we-can-help/\">HOW WE CAN HELP</a></p>",
       "width": "quarterLeft",
       "textColor": "#7ED321",
       "textAlign": "center"
