@@ -3,13 +3,20 @@
   "blocks": [
     {
       "_template": "textContent",
-      "html": "<h1><strong>Get Involved</strong></h1>",
+      "html": "<p></p><p></p><h1><strong>Get Involved</strong></h1><p></p><p></p>",
       "width": "full",
       "isLinkButtons": false,
       "textColor": "#FFFFFF",
       "backgroundImg": "/white-swan-bg2.webp",
       "padding": "24",
       "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><p></p><p></p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666"
     },
     {
       "_template": "textContent",
@@ -42,6 +49,13 @@
       "isLinkButtons": false,
       "textColor": "#666666",
       "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><p></p><p></p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666"
     }
   ]
 }
