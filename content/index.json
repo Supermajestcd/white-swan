@@ -13,7 +13,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p></p><h2>Our Story</h2><p></p><p>In 2015, Julie King was wheelchair-bound and in danger of losing her life. For 8 years her health had been deteriorating, yet despite countless tests, doctors were at a loss to explain her condition. Her family was told to prepare for the worst.</p><p></p><p></p><p><a href=\"/whiteswan/our-story/\">LEARN MORE</a></p><p></p><p></p>",
+      "html": "<p></p><p></p><p></p><h2>Our Story</h2><p></p><p>In 2015, Julie King was wheelchair-bound and in danger of losing her life. For 8 years her health had been deteriorating, yet despite countless tests, doctors were at a loss to explain her condition. Her family was told to prepare for the worst.</p><p></p><p></p><p><a href=\"/whiteswan/our-story/\">LEARN MORE</a></p><p></p><p></p><p></p><p></p>",
       "width": "container",
       "textAlign": "center",
       "padding": "10",
@@ -36,25 +36,26 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/team-thumbnail.webp\"></p><p></p><p><a href=\"/donate/\">DONATE</a></p>",
+      "html": "<p><img src=\"/funding-thumbnail.webp\"></p><p></p><p><a href=\"/donate/\">DONATE</a></p>",
       "width": "quarterCenterRight",
       "textColor": "#7ED321",
       "textAlign": "center"
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/team-thumbnail.webp\"></p><p></p><p><a href=\"/million-minds-helping-those-suffering-undiagnosed-find-a-diagnosis/\">MILLION MINDS</a></p>",
+      "html": "<p><img src=\"/million-minds.webp\"></p><p></p><p><a href=\"/million-minds-helping-those-suffering-undiagnosed-find-a-diagnosis/\">MILLION MINDS</a></p>",
       "width": "quarterRight",
       "textColor": "#7ED321",
       "textAlign": "center"
     },
     {
       "_template": "textContent",
-      "html": "<p></p><p></p><p></p><p></p><p></p><h1>Our Work</h1><p>We create tools and insights that give us a better understanding of how we can improve health.</p><p></p><p></p><p></p><p><a href=\"/our-work/how-we-can-help/\">LEARN MORE</a></p><p></p>",
+      "html": "<p></p><p></p><p></p><p></p><p></p><h1>Our Work</h1><p>We create tools and insights that give us a better understanding of how we can improve health.</p><p></p><p></p><p></p><p><a href=\"/our-work/how-we-can-help/\">LEARN MORE</a></p><p></p><p></p><p></p><p></p>",
       "width": "container",
       "isLinkButtons": true,
       "textColor": "#666666",
-      "textAlign": "center"
+      "textAlign": "center",
+      "padding": "10"
     },
     {
       "_template": "textContent",
