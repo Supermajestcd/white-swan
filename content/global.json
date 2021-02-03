@@ -4,7 +4,14 @@
       {
         "name": "Home",
         "link": "/",
-        "id": "lauzulb5x"
+        "id": "lauzulb5x",
+        "navigation": [
+          {
+            "name": "Trustee Annual Report",
+            "link": "/trustee-annual-report",
+            "id": "lh0qpfxfv"
+          }
+        ]
       },
       {
         "name": "About Us",
