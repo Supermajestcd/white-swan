@@ -1,0 +1,22 @@
+{
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><h1>CONTACT US</h1><p></p><p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#FFFFFF",
+      "padding": "20",
+      "textAlign": "center",
+      "backgroundImg": "/contact.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><p></p><p>We would love to hear from you! Please contact us at hello@whiteswan.org.uk or fill out the form below:</p><p></p><p></p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "6"
+    }
+  ]
+}

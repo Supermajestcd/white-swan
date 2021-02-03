@@ -22,14 +22,14 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/mission-thumbnail.webp\"></p><p></p><p><a href=\"/whiteswan/our-mission\">OUR MISSION</a></p>",
+      "html": "<p><img src=\"/mission-thumbnail.webp\"></p><p></p><p><a href=\"/our-mission\">OUR MISSION</a></p>",
       "width": "quarterLeft",
       "textColor": "#7ED321",
       "textAlign": "center"
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/team-thumbnail.webp\"></p><p></p><p><a href=\"/whiteswan/our-team/\">OUR TEAM</a></p>",
+      "html": "<p><img src=\"/team-thumbnail.webp\"></p><p></p><p><a href=\"/our-team/\">OUR TEAM</a></p>",
       "width": "quarterCenterLeft",
       "textColor": "#7ED321",
       "textAlign": "center"

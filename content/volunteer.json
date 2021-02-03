@@ -3,17 +3,17 @@
   "blocks": [
     {
       "_template": "textContent",
-      "html": "<h1>VOLUNTEER</h1>",
+      "html": "<p></p><p></p><h1>VOLUNTEER</h1><p></p><p></p><p></p>",
       "width": "full",
       "isLinkButtons": false,
-      "textColor": "#666666",
-      "padding": "20",
+      "textColor": "#FFFFFF",
+      "padding": "36",
       "textAlign": "center",
       "backgroundImg": "/volunteers.webp"
     },
     {
       "_template": "textContent",
-      "html": "<p>Want to volunteer? We have over 100 volunteers with a wide range of skills and experience who kindly donate their time to help us achieve our mission. We are particularly looking for people with data science, business analyst, insights, UX/Design and computer science skills. However, if you have other skills you think could help us, please do get in touch because we may well have opportunities where you can help us given the huge variety of things we get involved in!</p><p></p><p>Some of our volunteers have created this website for example, others have supported us by being an invaluable source of advice in medical matters. If you are interested in volunteering please drop us an email at <a href=\"mailto:hello@whiteswan.org.uk\">hello@whiteswan.org.uk</a>. We’d love to hear from you!</p><p></p><p>Current volunteer projects:</p><p></p><ul><li><p>Helping us review relevant academic literature for Million Minds</p></li><li><p>Evaluating funding models for Million Minds</p></li><li><p>Developing the design &amp; UX for Million Minds (based on user journeys already developed)</p></li><li><p>Help in developing brand positioning, key messages, tone of voice etc for Million Minds</p></li><li><p>Review of regulations and Information Governance relating to Million Minds</p></li><li><p></p></li></ul><p>Learn more about us:</p>",
+      "html": "<p></p><p></p><p>Want to volunteer? We have over 100 volunteers with a wide range of skills and experience who kindly donate their time to help us achieve our mission. We are particularly looking for people with data science, business analyst, insights, UX/Design and computer science skills. However, if you have other skills you think could help us, please do get in touch because we may well have opportunities where you can help us given the huge variety of things we get involved in!</p><p></p><p>Some of our volunteers have created this website for example, others have supported us by being an invaluable source of advice in medical matters. If you are interested in volunteering please drop us an email at <a href=\"mailto:hello@whiteswan.org.uk\">hello@whiteswan.org.uk</a>. We’d love to hear from you!</p><p></p><p>Current volunteer projects:</p><p></p><ul><li><p>Helping us review relevant academic literature for Million Minds</p></li><li><p>Evaluating funding models for Million Minds</p></li><li><p>Developing the design &amp; UX for Million Minds (based on user journeys already developed)</p></li><li><p>Help in developing brand positioning, key messages, tone of voice etc for Million Minds</p></li><li><p>Review of regulations and Information Governance relating to Million Minds</p></li><li><p></p></li></ul><p>Learn more about us:</p>",
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
