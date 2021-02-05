@@ -78,7 +78,7 @@ export const Header = ({ data }: Props) => {
               <Link href={link}><a className={router.pathname ? 'active' : ''}>{name}</a></Link>
             </MenuItem>
             {navigation?.map(({ name, link, id }) => (
-              <MenuItem key={id} className={router.pathname ? 'active' : ''} marginLeft='6'>
+              <MenuItem key={id} className={router.pathname ? 'active' : ''} paddingLeft='8'>
                 <Link href={link}><a className={router.pathname ? 'active' : ''}>{name}</a></Link>
               </MenuItem>
             ))}
