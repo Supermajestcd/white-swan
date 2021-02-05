@@ -4,7 +4,12 @@
       {
         "name": "Home",
         "link": "/",
-        "id": "lauzulb5x",
+        "id": "lauzulb5x"
+      },
+      {
+        "name": "About Us",
+        "link": "/whiteswan",
+        "id": "bszdajk0j",
         "navigation": [
           {
             "name": "Trustee Annual Report",
@@ -14,11 +19,6 @@
         ]
       },
       {
-        "name": "About Us",
-        "link": "/whiteswan",
-        "id": "bszdajk0j"
-      },
-      {
         "name": "Our Work",
         "link": "/our-work",
         "id": "7r9d4ixin"
@@ -26,7 +26,29 @@
       {
         "name": "Get Involved",
         "link": "/get-involved",
-        "id": "qc7jnl059"
+        "id": "qc7jnl059",
+        "navigation": [
+          {
+            "name": "Be a partner",
+            "link": "/partners",
+            "id": "lh1qpfxfv"
+          },
+          {
+            "name": "Donate",
+            "link": "/donate",
+            "id": "lh2qpfxfv"
+          },
+          {
+            "name": "Volunteer",
+            "link": "/volunteer",
+            "id": "lh3qpfxfv"
+          },
+          {
+            "name": "Work with us",
+            "link": "/work-with-us",
+            "id": "lh4qpfxfv"
+          }
+        ]
       },
       {
         "name": "Blog",
