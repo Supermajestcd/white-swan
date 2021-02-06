@@ -1,1 +1,23 @@
-{"title":"Our Funding"}
+{
+  "title": "Our Funding",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><h1>OUR FUNDING</h1><p></p><p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#FFFFFF",
+      "textAlign": "center",
+      "backgroundImg": "/pexels-photo-112640-e1496657122954.jpg",
+      "padding": "20"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p>We rely on donations, grants, philanthropy, the generosity of the public and contributions from private sector partners to achieve our mission. Black Swan employees also generously volunteer some of their free time to boost the White Swan cause.</p><p></p><p>We passionately believe in our mission so we make every penny count and keep our costs as low as possible, enabling us to help more people to help themselves, help those who can help them and help others in the process.</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "8"
+    }
+  ]
+}
