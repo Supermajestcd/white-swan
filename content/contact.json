@@ -17,6 +17,9 @@
       "isLinkButtons": false,
       "textColor": "#666666",
       "padding": "6"
+    },
+    {
+      "_template": "form"
     }
   ]
 }
