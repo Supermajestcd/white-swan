@@ -38,5 +38,9 @@ export default async (preview, previewData, contentDir) => {
       }
     })
   )
-  return posts
+  return posts.filter(({ data }) => data.publish)
+    .sort((a, b) => {
+      // @ts-ignore
+      return new Date(b.data.date) - new Date(a.data.date)
+    })
 }

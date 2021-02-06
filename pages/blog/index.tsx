@@ -18,17 +18,12 @@ export interface BlogPost {
 interface Props {file: GitFile, posts: BlogPost[], global: any}
 
 export default function Page ({ posts, global }: Props) {
-  const publishedPosts = posts.filter(({ data }) => data.publish)
-    .sort((a, b) => {
-      // @ts-ignore
-      return new Date(b.data.date) - new Date(a.data.date)
-    })
   return (
     <Layout global={global}>
         <Box maxW='xl' justifyContent='center' m='auto' p='10'>
             <Heading textAlign='center' p='10'>BLOG</Heading>
           <Flex flexWrap={'wrap'} justify={'center'}>
-            {publishedPosts.map(BlogCard)}
+            {posts.map(BlogCard)}
           </Flex>
         </Box>
     </Layout>

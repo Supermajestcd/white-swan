@@ -12,8 +12,6 @@ import { getLocalFiles } from '../../utils/getLocalFiles'
 import { useCreatePage } from '../../utils/useCreatePage'
 import { useCreateBlogPage } from '../../utils/useCreateBlogPage'
 import { ButtonComponent, ButtonComponentTemplate } from '../../components/ButtonComponent'
-import { ImageComponent } from '../../components/Image'
-import { ImageComponentTemplate } from '../../components/ImageComponent'
 import { TextContent, TextContentTemplate } from '../../components/TextContent'
 import { GridContainer } from '../'
 import { getGlobalStaticProps } from '../../utils/getGlobalStaticProps'
@@ -75,10 +73,6 @@ const PAGE_BLOCKS = {
   textContent: {
     Component: TextContent,
     template: TextContentTemplate
-  },
-  image: {
-    Component: ImageComponent,
-    template: ImageComponentTemplate
   },
   button: {
     Component: ButtonComponent,
