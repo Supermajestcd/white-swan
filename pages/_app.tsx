@@ -40,6 +40,12 @@ const onLogout = () => {
   })
 }
 
+class MyGitMediaStore extends NextGithubMediaStore {
+  options = {
+    limit: 200
+  }
+}
+
 export default class Site extends App {
   cms: TinaCMS
 
@@ -59,7 +65,7 @@ export default class Site extends App {
       apis: {
         github
       },
-      media: new NextGithubMediaStore(github),
+      media: new MyGitMediaStore(github),
       sidebar: props.pageProps.preview,
       toolbar: props.pageProps.preview
     })
