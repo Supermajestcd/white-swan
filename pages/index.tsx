@@ -23,7 +23,7 @@ const formOptions = {
 interface Props { file: GitFile, allPages: string[], allBlogs: string[], global: any }
 
 export const GridContainer = ({ innerRef, children }: { innerRef: any, children: any }) => (
-  <Grid templateColumns="1fr repeat(4, minMax(auto, 300px)) 1fr" ref={innerRef}>
+  <Grid templateColumns="1fr repeat(12, minMax(auto, 92px)) 1fr" ref={innerRef}>
     {children}
   </Grid>
 )

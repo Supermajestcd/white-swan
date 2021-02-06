@@ -13,11 +13,32 @@
     },
     {
       "_template": "textContent",
-      "html": "<p>We rely on donations, grants, philanthropy, the generosity of the public and contributions from private sector partners to achieve our mission. Black Swan employees also generously volunteer some of their free time to boost the White Swan cause.</p><p></p><p>We passionately believe in our mission so we make every penny count and keep our costs as low as possible, enabling us to help more people to help themselves, help those who can help them and help others in the process.</p>",
+      "html": "<p></p><p></p><p></p><p>We rely on donations, grants, philanthropy, the generosity of the public and contributions from private sector partners to achieve our mission. Black Swan employees also generously volunteer some of their free time to boost the White Swan cause.</p><p></p><p>We passionately believe in our mission so we make every penny count and keep our costs as low as possible, enabling us to help more people to help themselves, help those who can help them and help others in the process.</p><p></p><p></p>",
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
       "padding": "8"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/how-we-can-help-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/our-work/\">OUR WORK</a></p>",
+      "width": "thirdLeft",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/mission-thumbnail.webp\"></p><p></p><p><a href=\"/our-mission/\">OUR MISSION</a></p>",
+      "width": "thirdCenter",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/team-thumbnail.webp\"></p><p></p><p><a href=\"/our-team/\">OUR TEAM</a></p>",
+      "width": "thirdRight",
+      "textColor": "#7ED321",
+      "textAlign": "center"
     }
   ]
 }

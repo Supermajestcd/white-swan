@@ -14,7 +14,7 @@ const sizes = {
   sm: '400px',
   md: '600px',
   lg: '900px',
-  xl: '1200px'
+  xl: '1100px'
 }
 
 const theme: ThemeConfig = extendTheme({ sizes })

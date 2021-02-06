@@ -152,6 +152,27 @@
       "isLinkButtons": false,
       "textColor": "#666666",
       "padding": "10"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/how-we-can-help-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/our-work/\">OUR WORK</a></p>",
+      "width": "thirdLeft",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/mission-thumbnail.webp\"></p><p></p><p><a href=\"/our-mission/\">OUR MISSION</a></p>",
+      "width": "thirdCenter",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/funding-thumbnail.webp\"></p><p></p><p><a href=\"/our-funding\">OUR FUNDING</a></p>",
+      "width": "thirdRight",
+      "textColor": "#7ED321",
+      "textAlign": "center"
     }
   ]
 }

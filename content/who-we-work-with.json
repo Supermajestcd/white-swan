@@ -73,10 +73,32 @@
       "padding": "6"
     },
     {
-      "_template": "image"
+      "_template": "textContent",
+      "html": "<p><img src=\"/how-we-can-help-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/how-we-can-help/\">HOW WE CAN HELP</a></p>",
+      "width": "quarterLeft",
+      "textColor": "#7ED321",
+      "textAlign": "center"
     },
     {
-      "_template": "image"
+      "_template": "textContent",
+      "html": "<p><img src=\"/how-we-do-it-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/how-we-do-it/\">HOW WE DO IT</a></p>",
+      "width": "quarterCenterLeft",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/case-studies-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/case-studies/\">CASE STUDIES</a></p>",
+      "width": "quarterCenterRight",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/million-minds.webp\"></p><p></p><p><a href=\"/million-minds-helping-those-suffering-undiagnosed-find-a-diagnosis/\">MILLION MINDS</a></p>",
+      "width": "quarterRight",
+      "textColor": "#7ED321",
+      "textAlign": "center"
     }
   ]
 }

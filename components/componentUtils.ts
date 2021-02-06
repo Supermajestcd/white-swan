@@ -5,39 +5,51 @@ export const widths = {
   },
   container: {
     name: 'container',
-    val: '2 / 6'
+    val: '2 / 14'
   },
   halfLeft: {
     name: 'halfLeft',
-    val: '2/ span 2'
+    val: '2/ span 6'
   },
   halfRight: {
     name: 'halfRight',
-    val: 'span 2 / 6'
+    val: 'span 6 / 14'
   },
   quarterLeft: {
     name: 'quarterLeft',
-    val: '2/ span 1'
+    val: '2/ span 3'
   },
   quarterCenterLeft: {
     name: 'quarterCenterLeft',
-    val: '3 / span 1'
+    val: '5 / span 3'
   },
   quarterCenterRight: {
     name: 'quarterCenterRight',
-    val: '4 / span 1'
+    val: '8 / span 3'
   },
   quarterRight: {
     name: 'quarterRight',
-    val: 'span 1 / 6'
+    val: 'span 3 / 14'
   },
   threeQuarterLeft: {
     name: 'threeQuarterLeft',
-    val: '2 / span 3'
+    val: '2 / span 9'
   },
   threeQuarterRight: {
     name: 'threeQuarterRight',
-    val: 'span 3 / 6'
+    val: 'span 9 / 14'
+  },
+  thirdLeft: {
+    name: 'thirdLeft',
+    val: '2 / span 4'
+  },
+  thirdCenter: {
+    name: 'thirdCenter',
+    val: '6 / span 4'
+  },
+  thirdRight: {
+    name: 'thirdRight',
+    val: 'span 4 / 14'
   }
 }
 
