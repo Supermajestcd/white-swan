@@ -1,3 +1,4 @@
+
 {
   "title": "Reducing Flares for Ankylosing Spondylitis Patients",
   "description": "We first met Dr Raj Sengupta from the Royal National Hospital for Rheumatic Diseases about 2 years ago.  He shared our passion for using technology and analytics to improve outcomes for patients.",
@@ -10,6 +11,10 @@
       "isLinkButtons": false,
       "textColor": "#666666",
       "padding": "10"
+    },
+    {
+      "_template": "video",
+      "videoLink": "intro-to-project-nightingale-raj-video_dvd.mp4"
     }
   ],
   "publish": true

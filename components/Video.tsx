@@ -13,7 +13,7 @@ export const Video = ({ index, data }: Props) => {
     <GridItem key={index} gridColumn={'2 / 14'}>
       <BlocksControls index={index} insetControls label={false}>
           <video controls style={{ margin: '30px auto' }}>
-            <source src={data.videoLink} />
+            <source src={`/${data.videoLink}`} type='video/mp4'/>
           </video>
       </BlocksControls>
     </GridItem>

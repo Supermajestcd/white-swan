@@ -15,6 +15,7 @@ import { ButtonComponent, ButtonComponentTemplate } from '../../components/Butto
 import { TextContent, TextContentTemplate } from '../../components/TextContent'
 import { GridContainer } from '../'
 import { getGlobalStaticProps } from '../../utils/getGlobalStaticProps'
+import { Video, VideoTemplate } from '../../components/Video'
 
 const formOptions = {
   label: 'Page',
@@ -77,6 +78,10 @@ const PAGE_BLOCKS = {
   button: {
     Component: ButtonComponent,
     template: ButtonComponentTemplate
+  },
+  video: {
+    Component: Video,
+    template: VideoTemplate
   }
 }
 
