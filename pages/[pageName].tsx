@@ -10,12 +10,12 @@ import { getLocalFiles } from '../utils/getLocalFiles'
 import { useCreatePage } from '../utils/useCreatePage'
 import { useCreateBlogPage } from '../utils/useCreateBlogPage'
 import { ButtonComponent, ButtonComponentTemplate } from '../components/ButtonComponent'
-import { ImageComponentTemplate } from '../components/ImageComponent'
 import { TextContent, TextContentTemplate } from '../components/TextContent'
 import { Video, VideoTemplate } from '../components/Video'
 import { GridContainer } from '.'
 import { InlineForm, InlineBlocks } from 'react-tinacms-inline'
 import { getGlobalStaticProps } from '../utils/getGlobalStaticProps'
+import { Form, FormTemplate } from '../components/ContactForm'
 
 const formOptions = {
   label: 'Page',
@@ -72,6 +72,10 @@ const PAGE_BLOCKS = {
   video: {
     Component: Video,
     template: VideoTemplate
+  },
+  form: {
+    Component: Form,
+    template: FormTemplate
   }
 }
 
