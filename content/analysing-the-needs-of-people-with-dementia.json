@@ -1,1 +1,31 @@
-{"title":"analysing-the-needs-of-people-with-dementia"}
+{
+  "title": "analysing-the-needs-of-people-with-dementia",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "40",
+      "backgroundImg": "/Alzheimers-Society-Referrals.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<h1 class=\"headline text-center\">Analysing the needs of people with dementia</h1>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>The Challenge:</strong></p><p>Our partner, Alzheimer’s Society, wanted to understand themes within professional referrals to their new flagship dementia advice and support service. These related to symptoms, support within the community or planning for progression of the disease among other topics. They were also specifically interested in whether these requests related to assistive technology and where the gaps are between the needs of people with dementia and the technology available.</p><p></p><p></p><p><strong>What We Did:</strong></p><p>We analysed the free form text from over 10k requests or referrals for help that had been submitted to Alzheimer’s Society from health and social care professionals at diagnosis time and from people with, or affected by, dementia. Our team of volunteer data scientists and insight analysts used quantitative and qualitative techniques to draw out themes in conversation.</p><p></p><p><strong>The Results:</strong></p><p>A clear set of findings and recommendations to help inform Alzheimer’s Society future strategy were developed. These included insights into the most common reasons for requesting help, which existing services were most highly valued, the likely stage of diagnosis for the person with dementia and information about what assistive technology was used most frequently.</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    }
+  ]
+}
