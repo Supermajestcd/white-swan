@@ -1,1 +1,31 @@
-{"title":"accelerating-diagnosis-hypertrophic-cardiomyopathy"}
+{
+  "title": "accelerating-diagnosis-hypertrophic-cardiomyopathy",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "52",
+      "backgroundImg": "/david-calderon-1065267-unsplash.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<h1 class=\"headline text-center\">Accelerating Diagnosis – Hypertrophic Cardiomyopathy</h1>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>The Challenge:</strong></p><p>Our partner Consultants at the University Hospital Birmingham wanted to understand the key features of Hypertrophic Cardiomyopathy, in order to accelerate the path to diagnosis and improve the effectiveness of disease management. Unfortunately the condition is often undiagnosed and can result in sudden cardiac arrest, therefore it is crucial to identify patients early.</p><p></p><p><strong>What We Did:</strong></p><p>We gathered unstructured data from multiple social-data sources, including specialist forums, applying proprietary algorithms and then analysing the dataset in order to create a report with valuable and actionable insights into the patient journey.</p><p></p><p><strong>The Outcome:</strong></p><p>We created a detailed report into the patient journey for both the patient with Hypertrophic Cardiomyopathy (HCM) and their relatives. We are able to demonstrate the tight relationships between various symptoms and what looks spurious and as such delivered a quantitative symptom map to support clinical diagnosis. We have identified key concerns of patients and relatives with HCM around conflicting advice on lifestyle issues and the challenges they face, as well as identify where interventions could be usefully focused in order to improve diagnosis rates.</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    }
+  ]
+}
