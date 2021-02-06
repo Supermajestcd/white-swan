@@ -33,7 +33,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/unnamed2.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/worry-and-rumination/\">Worry and Rumination Social Analysis</a></h6>",
+      "html": "<p><img src=\"/unnamed2.webp\"></p><h6><a href=\"/worry-and-rumination-social-analysis/\">Worry and Rumination Social Analysis</a></h6>",
       "width": "thirdCenter",
       "isLinkButtons": false,
       "textColor": "#666666",
