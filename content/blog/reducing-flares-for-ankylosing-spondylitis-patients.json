@@ -1,1 +1,16 @@
-{"title":"Reducing Flares for Ankylosing Spondylitis Patients","description":"We first met Dr Raj Sengupta from the Royal National Hospital for Rheumatic Diseases about 2 years ago.  He shared our passion for using technology and analytics to improve outcomes for patients.","date":"2018-11-07T00:00:00Z"}
+{
+  "title": "Reducing Flares for Ankylosing Spondylitis Patients",
+  "description": "We first met Dr Raj Sengupta from the Royal National Hospital for Rheumatic Diseases about 2 years ago.  He shared our passion for using technology and analytics to improve outcomes for patients.",
+  "date": "2018-11-07T00:00:00Z",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p>We first met Dr Raj Sengupta from the Royal National Hospital for Rheumatic Diseases about 2 years ago.&nbsp; He shared our passion for using technology and analytics to improve outcomes for patients.</p><p></p><p>He wanted to have a more holistic view of his patients and how they lived with the condition day-to-day, in order to improve the effectiveness of their treatment.&nbsp; For example, how much they moved around, what exercises they did, what medication they took, how they slept etc. &nbsp;and how all of this impacted their symptoms, seeking patterns in the data to better understand ‘flares’ – and most importantly how to prevent or reduce them.</p><p></p><p>So we worked together, in partnership with UMotif, to create a mobile app that would do this, with a connected and confidential interface which would allow Dr Sengupta to view the individual patient data.&nbsp; This could then be discussed during patient consultations.</p><p></p><p>So far we have over 200 patients using the app and it is proving invaluable to better understand the intricacies of the disease in individual patients.</p><p></p><p>Our volunteers are analysing the anonymised data, working directly for Dr Sengupta, in order to help improve understanding of the disease and once results are published, we hope this will enable doctors worldwide to improve disease management.</p><p>See the below video created where Dr Sengupta explains to future patients why they should use the app to help him do the best job possible for them.</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    }
+  ],
+  "publish": true
+}
