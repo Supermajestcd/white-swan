@@ -50,7 +50,8 @@ export const TextContentTemplate = {
     html: '<p>Add text here</p>',
     width: widths.container.name,
     isLinkButtons: false,
-    textColor: '#666666'
+    textColor: '#666666',
+    padding: '10'
   },
   fields: [
     widthField,

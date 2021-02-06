@@ -74,7 +74,7 @@ export const useCreateBlogPage = (allBlogs = []) => {
             setCachedFormData(fileRelativePath, {
               sha: response.content.sha
             })
-            setTimeout(() => router.push(`blog/${fileName}`), 1500)
+            setTimeout(() => router.push(`/blog/${fileName}`), 1500)
           })
           .catch((e) => {
             return { [FORM_ERROR]: e }
