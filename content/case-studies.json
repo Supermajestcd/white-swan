@@ -1,1 +1,25 @@
-{"title":"case-studies"}
+{
+  "title": "case-studies",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><h1>CASE STUDIES</h1><p></p><p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#FFFFFF",
+      "padding": "36",
+      "textAlign": "center",
+      "backgroundImg": "/case-studies.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/Alzheimers-Society-Referrals.webp\"></p><h5><a href=\"/analysing-the-needs-of-people-with-dementia/\">Analysing the needs of people with dementia</a></h5>",
+      "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
+    }
+  ]
+}
