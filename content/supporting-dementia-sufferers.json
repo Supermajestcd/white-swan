@@ -1,1 +1,31 @@
-{"title":"Supporting Dementia Sufferers"}
+{
+  "title": "Supporting Dementia Sufferers",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "36",
+      "backgroundImg": "/dementia-e1496743516102.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<h1 class=\"headline text-center\">Supporting Dementia Sufferers</h1>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>The Challenge:</strong><br>Our partner, The Alzheimer’s Society, wanted to understand more about the experiences of the carers, loved ones and those living with a dementia diagnosis in order to effectively support them. This included people who were worried about their memory, those living with dementia, carers and healthcare professionals across the dementia journey.</p><p></p><p><strong>What We Did:</strong><br>We tapped into the world’s biggest focus group – the internet – analysing over 1.2m conversations across news, social media and the Talking Point Forum (run by The Alzheimer’s Society), across the diagnosis and treatment journey, utilising Black Swan’s proprietary technology, to create an in-depth understanding of the experience of those living in proximity to a dementia diagnosis.</p><p></p><p><strong>The Results:</strong><br>A clear set of findings and recommendations to shape The Alzheimer’s Society future services mapped across the dementia journey, including: where fears and challenges exist and relative importance of these, the tipping points for when help is sought by carers and the support they need, the challenges of reaching a diagnosis and the paths patients go through, recommended treatments and preventative lifestyle steps to take, as well as scale and content of discussion on rarer dementia-based conditions.</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    }
+  ]
+}
