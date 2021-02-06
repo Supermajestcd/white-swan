@@ -7,7 +7,7 @@
       "width": "full",
       "isLinkButtons": false,
       "textColor": "#FFFFFF",
-      "padding": "20",
+      "padding": "36",
       "textAlign": "center",
       "backgroundImg": "/who-we-work-with.webp"
     },
@@ -25,7 +25,7 @@
       "width": "halfLeft",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5",
+      "padding": "10",
       "textAlign": "center"
     },
     {
@@ -34,7 +34,7 @@
       "width": "halfRight",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5",
+      "padding": "10",
       "textAlign": "center"
     },
     {
@@ -43,7 +43,7 @@
       "width": "halfLeft",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5",
+      "padding": "10",
       "textAlign": "center"
     },
     {
@@ -52,7 +52,7 @@
       "width": "halfRight",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5",
+      "padding": "10",
       "textAlign": "center"
     },
     {
@@ -61,7 +61,7 @@
       "width": "halfLeft",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5",
+      "padding": "10",
       "textAlign": "center"
     },
     {

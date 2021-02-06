@@ -7,7 +7,7 @@
       "width": "full",
       "isLinkButtons": false,
       "textColor": "#FFFFFF",
-      "padding": "20",
+      "padding": "36",
       "textAlign": "center",
       "backgroundImg": "/pexels-photo-2078961-e1496139257454.jpg"
     },
@@ -33,7 +33,7 @@
       "width": "threeQuarterRight",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5"
+      "padding": "10"
     },
     {
       "_template": "textContent",
@@ -57,7 +57,7 @@
       "width": "threeQuarterRight",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5"
+      "padding": "10"
     },
     {
       "_template": "textContent",
@@ -81,7 +81,7 @@
       "width": "threeQuarterRight",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5"
+      "padding": "10"
     },
     {
       "_template": "textContent",
@@ -96,7 +96,7 @@
       "width": "threeQuarterRight",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5"
+      "padding": "10"
     },
     {
       "_template": "textContent",
@@ -111,7 +111,7 @@
       "width": "threeQuarterRight",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5"
+      "padding": "10"
     },
     {
       "_template": "textContent",
@@ -135,7 +135,7 @@
       "width": "threeQuarterRight",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5"
+      "padding": "10"
     },
     {
       "_template": "textContent",

@@ -7,7 +7,7 @@
       "width": "full",
       "isLinkButtons": false,
       "textColor": "#FFFFFF",
-      "padding": "20",
+      "padding": "36",
       "textAlign": "center",
       "backgroundImg": "/cropped-Webp.net-compress-image-1.webp"
     },
@@ -17,7 +17,7 @@
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "5"
+      "padding": "10"
     },
     {
       "_template": "textContent",
