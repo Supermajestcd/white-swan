@@ -11,5 +11,6 @@
       "textColor": "#666666",
       "padding": "10"
     }
-  ]
+  ],
+  "publish": true
 }
