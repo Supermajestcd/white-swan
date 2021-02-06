@@ -15,13 +15,14 @@ interface Props {
     width?: string,
     backgroundImg?: string
     isLinkButtons: boolean
+    boxShadow?: boolean
   }
 }
 
 export const TextContent = ({ index, data }: Props) => {
-  const { html, bgColor = 'transparent', textColor, textAlign = 'left', padding = '3', width = widths.container.name, backgroundImg, isLinkButtons = false } = data
+  const { html, bgColor = 'transparent', textColor, textAlign = 'left', padding = '3', width = widths.container.name, backgroundImg, isLinkButtons = false, boxShadow = false } = data
   return (
-    <GridItem bg={bgColor} bgImg={`url('${backgroundImg}')`} bgSize='cover' bgPos='center' gridColumn={widths[width].val} key={index}>
+    <GridItem bg={bgColor} bgImg={`url('${backgroundImg}')`} bgSize='cover' bgPos='center' gridColumn={widths[width].val} key={index} boxShadow={boxShadow ? 'md' : 'none' } m={boxShadow ? '5' : '0'}>
       <BlocksControls index={index} insetControls label={false}>
           <Box maxW='100%' m='auto' p={padding} textColor={textColor} textAlign={textAlign} className={isLinkButtons ? 'linkButton' : 'link'}>
             <InlineWysiwyg
@@ -85,6 +86,12 @@ export const TextContentTemplate = {
       default: false,
       label: 'Make links buttons?',
       name: 'isLinkButtons'
+    },
+    {
+      component: 'toggle',
+      default: false,
+      label: 'Add Box Shadow?',
+      name: 'boxShadow'
     }
   ]
 }

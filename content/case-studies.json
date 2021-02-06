@@ -13,8 +13,108 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/Alzheimers-Society-Referrals.webp\"></p><h5><a href=\"/analysing-the-needs-of-people-with-dementia/\">Analysing the needs of people with dementia</a></h5>",
+      "html": "<div></div>",
       "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "boxShadow": false,
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/Alzheimers-Society-Referrals.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/analysing-the-needs-of-people-with-dementia/\">Analysing the needs of people with dementia</a></h6>",
+      "width": "thirdLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/unnamed2.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/worry-and-rumination/\">Worry and Rumination Social Analysis</a></h6>",
+      "width": "thirdCenter",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/cropped-nurse-helping-compressed.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/improving-care-for-cancer-patients/\">Improving Care for Cancer Patients</a></h6>",
+      "width": "thirdRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/david-calderon-1065267-unsplash.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/accelerating-diagnosis-hypertrophic-cardiomyopathy/\">Accelerating Diagnosis – Hypertrophic Cardiomyopathy</a></h6>",
+      "width": "thirdLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/farsai-c-232290-e1510846213918.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/disease-progression-predictors/\">Disease Progression Predictors</a></h6>",
+      "width": "thirdCenter",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/green-motif-in-hand-android-swipe-sml_preview-e1511224629409.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/nightingale-holistic-disease-monitoring/\">Nightingale – Holistic Disease Monitoring</a></h6>",
+      "width": "thirdRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/night-2182187_1920.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/accident-emergency-admittance//\">Accident and Emergency Admittance</a></h6>",
+      "width": "thirdLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/dementia-e1496743516102.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/Supporting-Parkinsons-Sufferers/\">Supporting Parkinson’s Sufferers</a></h6>",
+      "width": "thirdCenter",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/nice-back-e1496759600301.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/improving-diagnosis-and-treatment-for-back-pain/\">Improving diagnosis and treatment for back pain</a></h6>",
+      "width": "thirdRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/parkinsons-e1496770932450.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/Supporting-Dementia-Sufferers/\">Supporting Dementia Sufferers</a></h6>",
+      "width": "thirdLeft",
       "isLinkButtons": false,
       "textColor": "#666666",
       "padding": "0",

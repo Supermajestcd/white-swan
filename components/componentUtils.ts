@@ -97,6 +97,18 @@ export const widthField = {
     {
       value: widths.threeQuarterRight.name,
       label: 'Three quarters width, right aligned'
+    },
+    {
+      value: widths.thirdLeft.name,
+      label: 'One Third width, left aligned'
+    },
+    {
+      value: widths.thirdCenter.name,
+      label: 'One Third width, center aligned'
+    },
+    {
+      value: widths.thirdRight.name,
+      label: 'One Third width, right aligned'
     }
   ]
 }
