@@ -1,1 +1,31 @@
-{"title":"accident-emergency-admittance"}
+{
+  "title": "accident-emergency-admittance",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "36",
+      "backgroundImg": "/night-2182187_1920.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<h1 class=\"headline text-center\">Accident and Emergency Admittance</h1>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>The Challenge:</strong><br>A large NHS Trust wanted to understand whether it was possible to accurately predict Accident and Emergency Attendance and Admittance rates to better enable resource planning.</p><p></p><p><strong>What We Did:</strong><br>Using Black Swan’s proprietary technology we fused together and analysed 3 years of historical attendance and admittance volumes (under three categories – flu/pneumonia, trauma and alcohol poisoning), with public data including weather, flu season proxy data and social media data.</p><p></p><p><strong>The Results:</strong><br>We developed a 24hr forecast model which was 86% accurate for overall attendance and between 62% and 85% accurate for admittance (62% for alcohol poisoning, 72% for flu/pneumonia, 85% for trauma). Yearly trends could be easily identified and as the most important drivers were available as data sources days and weeks in advance predictions could be extended to improve planning in the future.</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    }
+  ]
+}
