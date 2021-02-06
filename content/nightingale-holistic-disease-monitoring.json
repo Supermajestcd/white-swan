@@ -1,1 +1,31 @@
-{"title":"nightingale-holistic-disease-monitoring"}
+{
+  "title": "nightingale-holistic-disease-monitoring",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "40",
+      "backgroundImg": "/green-motif-in-hand-android-swipe-sml_preview-e1511224629409.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<h1 class=\"headline text-center\">Nightingale – Holistic Disease Monitoring</h1>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><strong>The Challenge:</strong><br>Our partner Consultant at the Royal National Hospital for Rheumatic Diseases wanted to understand how data from wearable devices could be utilised to better understand factors impacting the severity of different symptoms to improve and personalise treatment, thereby empowering ankylosing spondylitis patients to optimise self-management.</p><p></p><p><strong>What We Did:</strong><br>Working in partnership with uMotif, we will be launching in January, a tailored patient-data- capture application and clinician platform, enabling patients and their Clinician to monitor key symptoms (such as fatigue and pain) as well as factors affecting symptoms such as exercises and stretching, mood and stress.&nbsp; Depending on the applications and devices patients have we will also be monitoring lifestyle factors such as diet, activity (step count) and sleep.&nbsp; The data captured will then be analysed anonymously by our specialist data scientists to improve patient outcomes.</p><p></p><p><strong>The Results:</strong><br>We have over 200 patients who are using the Nightingale app, monitoring their own daily activities and symptoms, and sharing this data with their Consultant at the Royal National Hospital for Rheumatic Diseases in Bath. This is enabling him to better understand what flares mean for them, what triggers them, how long they last, and as such improve the personalisation of their care. Check out our Blog to hear from Dr Raj Sengupta himself!</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    }
+  ]
+}
