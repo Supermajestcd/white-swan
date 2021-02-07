@@ -1,5 +1,6 @@
 import { BlocksControls } from 'react-tinacms-inline'
 import { GridItem } from '@chakra-ui/layout'
+import { FormControl, FormLabel, Input, Textarea, Button } from '@chakra-ui/react'
 
 interface Props {
   index: number
@@ -7,7 +8,7 @@ interface Props {
 
 export const Form = ({ index }: Props) => {
   return (
-    <GridItem key={index} gridColumn={'2 / 14'}>
+    <GridItem key={index} gridColumn={'5/span 6'}>
       <BlocksControls index={index} insetControls label={false}>
         <form
           name="contact"
@@ -24,27 +25,19 @@ export const Form = ({ index }: Props) => {
               <input name="bot-field"/>
             </label>
           </p>
-          <p>
-            <label>
-              Your name:<br />
-              <input type="text" name="name"/>
-            </label>
-          </p>
-          <p>
-            <label>
-              Your email:<br />
-              <input type="email" name="email"/>
-            </label>
-          </p>
-          <p>
-            <label>
-              Message:<br />
-              <textarea name="message"/>
-            </label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
+          <FormControl id="name" p={'3'}>
+            <FormLabel>Name</FormLabel>
+            <Input type="text" name="name" required/>
+          </FormControl>
+          <FormControl id="email" p={'3'}>
+            <FormLabel>Email</FormLabel>
+            <Input type="email" name="email" required/>
+          </FormControl>
+          <FormControl id="comment" p={'3'}>
+            <FormLabel>Comment</FormLabel>
+            <Textarea type="comment" name="comment" required/>
+          </FormControl>
+          <Button type="submit" m={'3'}>Send</Button>
         </form>
       </BlocksControls>
     </GridItem>

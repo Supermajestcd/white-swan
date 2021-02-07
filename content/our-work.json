@@ -43,7 +43,7 @@
       "width": "full",
       "isLinkButtons": true,
       "textColor": "#5E5E5E",
-      "padding": "36",
+      "padding": "20",
       "bgColor": "#B8E986",
       "textAlign": "center"
     }

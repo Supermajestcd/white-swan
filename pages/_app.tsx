@@ -40,12 +40,6 @@ const onLogout = () => {
   })
 }
 
-class MyGitMediaStore extends NextGithubMediaStore {
-  options = {
-    limit: 200
-  }
-}
-
 export default class Site extends App {
   cms: TinaCMS
 
@@ -65,7 +59,7 @@ export default class Site extends App {
       apis: {
         github
       },
-      media: new MyGitMediaStore(github),
+      media: new NextGithubMediaStore(github),
       sidebar: props.pageProps.preview,
       toolbar: props.pageProps.preview
     })
@@ -85,6 +79,7 @@ export default class Site extends App {
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <title>{pageProps.file?.data?.title}</title>
         </Head>
         <TinacmsGithubProvider
           onLogin={onLogin}
@@ -107,8 +102,8 @@ export interface EditLinkProps {
 
 export const EditLink = ({ cms }: EditLinkProps) => {
   return (
-    <button onClick={() => cms.toggle()}>
-      {cms.enabled ? 'Exit Edit Mode' : 'Edit This Site'}
+    <button onClick={() => cms.toggle()} style={{ padding: 10, fontSize: 18, opacity: 0.6 }}>
+      {cms.enabled ? 'Exit Edit Mode' : '✎'}
     </button>
   )
 }

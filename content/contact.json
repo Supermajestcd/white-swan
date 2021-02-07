@@ -6,7 +6,7 @@
       "width": "full",
       "isLinkButtons": false,
       "textColor": "#FFFFFF",
-      "padding": "36",
+      "padding": "20",
       "textAlign": "center",
       "backgroundImg": "/contact.webp"
     },
@@ -16,7 +16,11 @@
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "6"
+      "padding": "6",
+      "textAlign": "center"
+    },
+    {
+      "_template": "form"
     }
   ]
 }
