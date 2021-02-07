@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# White Swan Site
 
-## Getting Started
+This site is a website for White Swan, it uses [Nextjs](https://nextjs.org/) as a static site generator and TinaCMS(https://nextjs.org/) as a github based CMS
 
-First, run the development server:
+## Editing the site using the CMS
 
+In the bottom left of all pages will be a small pen icon, clicking this will ask you to login to the site, and from here you will be able to edit using the Inline TinaCms editing tools. 
+
+It should be quite straight forward by clicking on text to edit the page, click the plus button on the top left to add new pages or blog posts, and is the sidebar options to edit the navigation items.
+No changes will be saved until the save button in the top right is pressed, this will trigger a new build which will take a couple of minutes, before the changes show on the live site.
+
+## Installation
+
+Getting started locally
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Todo, this will be on hosted on netlify, and the form submission will be handled by them
