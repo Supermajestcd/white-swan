@@ -1,1 +1,13 @@
-{"title":"Our Story"}
+{
+  "title": "Our Story",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p>In 2015, Julie King was wheelchair-bound and in danger of losing her life. For 8 years her health had been deteriorating, yet despite countless tests, doctors were at a loss to explain her condition. Her family was told to prepare for the worst.</p><p>Steve King, brother to Julie and founder and CEO of Black Swan Data Ltd, refused to accept his sister’s bleak prognosis. Having understood the power of data and predictive analytics to make connections and find patterns that would be impossible for a single human being, he asked himself, “What if we applied the same techniques to help Julie?”</p><p>Steve and his team utilised Black Swan’s technology and expertise to help clinicians diagnose his sister with a rare form of Parkinson’s disease. Effective treatment was quickly initiated and Julie is now able to lead a normal life with her family.</p><p>This inspired the people of Black Swan to set-up White Swan as a not-for-profit offshoot, in order to make a positive difference to the world – to help people get healthy and stay healthy. In January 2018 White Swan became an independent registered charity.</p><p>At White Swan our mission is to improve the health of society by accelerating the path to diagnosis, improving the effectiveness of treatment and ultimately helping to prevent illness through the use of technology and analytics.</p><p>We work across a huge variety of areas including mental health, dementia, arthritis and Parkinson’s as well as rarer conditions.</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    }
+  ]
+}
