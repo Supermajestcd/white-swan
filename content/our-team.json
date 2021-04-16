@@ -140,6 +140,15 @@
     },
     {
       "_template": "textContent",
+      "html": "<p><strong>CLINICAL ADVISORS</strong></p><p>White Swan is fortunate to benefit from the support of our clinical advisory board who take an active role in shaping the development of Million Minds. Their expertise in clinical informatics and general practise is helping us to develop a solution that helps both patients and their doctors. ​</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
       "html": "<p></p><p><strong>VOLUNTEERS</strong></p><p></p><p>We are lucky to have over 100 volunteers with expertise in different fields, including data science, computer science, insights, marketing, health, medicine and environmental science. If you are interested in volunteering please <a href=\"https://whiteswan.org.uk/get-involved/volunteer/\">click here</a>.</p>",
       "width": "container",
       "isLinkButtons": false,
