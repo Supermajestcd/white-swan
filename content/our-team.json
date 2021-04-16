@@ -18,7 +18,7 @@
       "isLinkButtons": false,
       "textColor": "#666666",
       "padding": "10",
-      "textAlign": "Left"
+      "textAlign": "center"
     },
     {
       "_template": "textContent",
@@ -42,7 +42,7 @@
       "isLinkButtons": false,
       "textColor": "#666666",
       "padding": "10",
-      "textAlign": "Left"
+      "textAlign": "center"
     },
     {
       "_template": "textContent",
@@ -61,12 +61,20 @@
     },
     {
       "_template": "textContent",
+      "html": "<p></p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    },
+    {
+      "_template": "textContent",
       "html": "<p><strong>TRUSTEES</strong></p>",
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
       "padding": "10",
-      "textAlign": "Left"
+      "textAlign": "center"
     },
     {
       "_template": "textContent",
@@ -120,7 +128,7 @@
       "isLinkButtons": false,
       "textColor": "#666666",
       "padding": "10",
-      "textAlign": "Left"
+      "textAlign": "center"
     },
     {
       "_template": "textContent",
@@ -143,7 +151,8 @@
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "10"
+      "padding": "10",
+      "textAlign": "center"
     },
     {
       "_template": "textContent",
@@ -151,7 +160,8 @@
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "10"
+      "padding": "10",
+      "textAlign": "center"
     },
     {
       "_template": "textContent",
