@@ -1,0 +1,45 @@
+{
+  "title": "our-story",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><h1>OUR MISSION</h1><p></p><p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#FFFFFF",
+      "padding": "20",
+      "bgColor": "#FFFFFF",
+      "textAlign": "center",
+      "backgroundImg": "/pexels-photo-357140.jpg"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p></p><p></p><p>Our mission is to improve the health of society by accelerating the path to diagnosis, improving the effectiveness of treatment and ultimately helping prevent illness through the use of technology and analytics.</p><p></p><p>Learn more about us:</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/how-we-can-help-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/our-work/\">OUR WORK</a></p>",
+      "width": "thirdLeft",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/team-thumbnail.webp\"></p><p></p><p><a href=\"/our-team/\">OUR TEAM</a></p>",
+      "width": "thirdCenter",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/funding-thumbnail.webp\"></p><p></p><p><a href=\"/our-funding\">OUR FUNDING</a></p>",
+      "width": "thirdRight",
+      "textColor": "#7ED321",
+      "textAlign": "center"
+    }
+  ]
+}

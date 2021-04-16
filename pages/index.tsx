@@ -47,7 +47,7 @@ export default function Page ({ file, allPages, allBlogs, global, posts = [] }: 
         </InlineForm>
       </ModalProvider>
       {!!blogPosts.length && <Box maxW='xl' justifyContent='center' m='auto' p='10'>
-        <Heading textAlign='center' p='10'>BLOG</Heading>
+        <Heading textAlign='center' p='10' style={{ color: '#666666', fontWeight: 400, fontSize: '3rem' }}>Our Blog</Heading>
         <Flex flexWrap={'wrap'} justify={'center'}>
           {blogPosts.map(BlogCard)}
         </Flex>

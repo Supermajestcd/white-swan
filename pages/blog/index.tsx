@@ -21,7 +21,7 @@ export default function Page ({ posts, global }: Props) {
   return (
     <Layout global={global}>
         <Box maxW='xl' justifyContent='center' m='auto' p='10'>
-            <Heading textAlign='center' p='10'>BLOG</Heading>
+            <Heading textAlign='center' p='10' style={{ color: '#666666', fontWeight: 400, fontSize: '3rem' }}>Our Blog</Heading>
           <Flex flexWrap={'wrap'} justify={'center'}>
             {posts.map(BlogCard)}
           </Flex>
