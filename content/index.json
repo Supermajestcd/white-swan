@@ -13,7 +13,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p></p><p></p><p></p><h2>Our Story</h2><p></p><p>In 2015, Julie King was wheelchair-bound and in danger of losing her life. For 8 years her health had been deteriorating, yet despite countless tests, doctors were at a loss to explain her condition. Her family was told to prepare for the worst.</p><p></p><p></p><p><a href=\"/whiteswan/our-story/\">LEARN MORE</a></p><p></p><p></p><p></p><p></p>",
+      "html": "<p></p><p></p><p></p><h2>Our Story</h2><p></p><p>In 2015, Julie King was wheelchair-bound and in danger of losing her life. For 8 years her health had been deteriorating, yet despite countless tests, doctors were at a loss to explain her condition. Her family was told to prepare for the worst.</p><p></p><p></p><p><a href=\"/whiteswan\">LEARN MORE</a></p><p></p><p></p><p></p><p></p>",
       "width": "container",
       "textAlign": "center",
       "padding": "10",
