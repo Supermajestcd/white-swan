@@ -57,7 +57,8 @@
       "width": "threeQuarterRight",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "10"
+      "padding": "10",
+      "boxShadow": false
     },
     {
       "_template": "textContent",
