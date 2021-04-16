@@ -2,6 +2,15 @@
   "title": "whiteswan",
   "blocks": [
     {
+      "_template": "textContent",
+      "html": "<h1>About Us</h1>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
+    },
+    {
       "_template": "video",
       "videoLink": "white-swan_dvd.mp4"
     },
