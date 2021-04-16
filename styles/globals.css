@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+header a {
+  color: #666666 !important;
+}

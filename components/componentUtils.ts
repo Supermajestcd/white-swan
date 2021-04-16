@@ -120,3 +120,10 @@ export const paddingField = {
   description: 'Select amount of padding for the content',
   options: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 72, 80, 96]
 }
+
+export const heightField = {
+  name: 'height',
+  component: 'string',
+  label: 'Component Height',
+  description: 'Enter the height'
+}

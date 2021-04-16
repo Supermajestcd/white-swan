@@ -1,13 +1,14 @@
 import { BlocksControls, InlineImage } from 'react-tinacms-inline'
 import { GridItem, Box } from '@chakra-ui/layout'
-import { widths, widthField, paddingField } from './componentUtils'
+import { widths, widthField, paddingField, heightField } from './componentUtils'
 
 interface Props {
   index: number
   data: {
     alt: string
     width?: string,
-    padding?: string
+    padding?: string,
+    height?: string
   }
 }
 
@@ -38,6 +39,7 @@ export const ImageComponentTemplate = {
       label: 'Description about the image'
     },
     widthField,
-    paddingField
+    paddingField,
+    heightField
   ]
 }

@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import { ChakraProvider, extendTheme, ThemeConfig } from '@chakra-ui/react'
+import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import App from 'next/app'
 import Head from 'next/head'
 import { TinaCMS, TinaProvider } from 'tinacms'
@@ -17,7 +17,7 @@ const sizes = {
   xl: '1100px'
 }
 
-const theme: ThemeConfig = extendTheme({ sizes })
+const theme: any = extendTheme({ sizes })
 
 const onLogin = async () => {
   const token = localStorage.getItem('tinacms-github-token') || null
