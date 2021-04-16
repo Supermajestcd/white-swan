@@ -65,7 +65,8 @@
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "10"
+      "padding": "0",
+      "bgColor": "#666666"
     },
     {
       "_template": "textContent",
