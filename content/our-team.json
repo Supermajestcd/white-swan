@@ -61,15 +61,6 @@
     },
     {
       "_template": "textContent",
-      "html": "<p></p>",
-      "width": "container",
-      "isLinkButtons": false,
-      "textColor": "#666666",
-      "padding": "0",
-      "bgColor": "#666666"
-    },
-    {
-      "_template": "textContent",
       "html": "<p><strong>TRUSTEES</strong></p>",
       "width": "container",
       "isLinkButtons": false,
