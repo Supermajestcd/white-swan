@@ -39,7 +39,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<h1>Support us in our work</h1><p></p><p></p><p><a href=\"/partner\">BECOME A PARTNER</a></p>",
+      "html": "<h1>Support us in our work</h1><p></p><p></p><p><a href=\"/partners\">BECOME A PARTNER</a></p>",
       "width": "full",
       "isLinkButtons": true,
       "textColor": "#5E5E5E",
