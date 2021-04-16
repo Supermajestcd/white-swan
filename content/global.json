@@ -10,13 +10,7 @@
         "name": "About Us",
         "link": "/whiteswan",
         "id": "bszdajk0j",
-        "navigation": [
-          {
-            "name": "Trustee Annual Report",
-            "link": "/trustee-annual-report",
-            "id": "lh0qpfxfv"
-          }
-        ]
+        "navigation": []
       },
       {
         "name": "Our Work",
