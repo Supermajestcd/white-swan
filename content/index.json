@@ -3,13 +3,14 @@
   "blocks": [
     {
       "_template": "textContent",
-      "html": "<p></p><h1 >Welcome to White Swan</h1><p></p><p>We are a registered charity with a mission to improve the health of society<br>through technology and analytics.</p><p></p><p></p><p><a href=\"/whiteswan\">LEARN MORE</a></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>",
+      "html": "<p></p><h1>Welcome to White Swan</h1><p></p><p>We are a registered charity with a mission to improve the health of society<br>through technology and analytics.</p><p></p><p></p><p><a href=\"/whiteswan\">LEARN MORE</a></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>",
       "width": "full",
       "bgColor": "#4A90E2",
       "textAlign": "center",
       "textColor": "#FFFFFF",
       "backgroundImg": "/white-swan-bg1.webp",
-      "isLinkButtons": true
+      "isLinkButtons": true,
+      "padding": "20"
     },
     {
       "_template": "textContent",
