@@ -16,6 +16,11 @@ a {
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+}
+
 header a {
   color: #666666 !important;
 }
