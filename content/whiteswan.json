@@ -3,7 +3,7 @@
   "blocks": [
     {
       "_template": "textContent",
-      "html": "<p></p><p></p><p></p><h1>About Us</h1>",
+      "html": "<h1>About Us</h1>",
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
