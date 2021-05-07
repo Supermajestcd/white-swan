@@ -6,7 +6,7 @@
       "html": "<h1>Our Story</h1>",
       "width": "container",
       "isLinkButtons": false,
-      "textColor": "#666666",
+      "textColor": "#FFFFFF",
       "padding": "10",
       "textAlign": "center",
       "backgroundImg": "/ourstory.jpg"
