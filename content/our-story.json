@@ -4,10 +4,10 @@
     {
       "_template": "textContent",
       "html": "<h1>Our Story</h1>",
-      "width": "container",
+      "width": "full",
       "isLinkButtons": false,
       "textColor": "#FFFFFF",
-      "padding": "10",
+      "padding": "40",
       "textAlign": "center",
       "backgroundImg": "/ourstory.jpg"
     },
