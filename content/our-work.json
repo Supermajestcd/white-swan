@@ -2,7 +2,7 @@
   "blocks": [
     {
       "_template": "textContent",
-      "html": "<p></p><p></p><p></p><h1>Our Work</h1><p></p><p></p><p>We create tools and insights that give us a better understanding of how we can improve health.</p><p></p><p></p><p><a href=\"/how-we-can-help\">LEARN MORE</a></p><p></p>",
+      "html": "<h1>Our Work</h1><p></p><p></p><p>We create tools and insights that give us a better understanding of how we can improve health.</p><p></p><p></p><p><a href=\"/how-we-can-help\">LEARN MORE</a></p><p></p>",
       "width": "container",
       "isLinkButtons": true,
       "textColor": "#666666",
