@@ -22,6 +22,7 @@ export const Layout = ({ children, global = dummyGlobal }: Props) => {
   return (
     <>
       <Header data={data}/>
+        <div style={{ height: '85px' }} />
         <Container>
           {children}
         </Container>
