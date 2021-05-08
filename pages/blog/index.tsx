@@ -10,7 +10,8 @@ export interface BlogPost {
     date: Date
     title: string
     publish: boolean
-    description?: string
+    description?: string;
+    featureImg?: string;
   }
   fileName: string
 }
@@ -18,6 +19,7 @@ export interface BlogPost {
 interface Props {file: GitFile, posts: BlogPost[], global: any}
 
 export default function Page ({ posts, global }: Props) {
+  console.log(posts);
   return (
     <Layout global={global}>
         <Box maxW='xl' justifyContent='center' m='auto' p='10'>

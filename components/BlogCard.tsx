@@ -1,11 +1,12 @@
 import { Flex, Text } from '@chakra-ui/layout'
-import { Button } from '@chakra-ui/react'
+import { Button, Image } from '@chakra-ui/react'
 import Link from 'next/link'
 import { BlogPost } from '../pages/blog'
 
 export const BlogCard = ({ data, fileName }: BlogPost) => (
   <Link href={`/blog/${fileName}`} key={data.title} passHref>
     <Flex w={'300px'} borderWidth="1px" borderRadius="lg" p='5' m={'5'} direction={'column'} cursor={'pointer'}>
+      <Image src={data.featureImg}/>
       <Text as='h5'>{data.title}</Text>
       <Text pb='4'>{new Date(data.date).toDateString()}</Text>
       <Text my={'4'}>{data.description}</Text>
