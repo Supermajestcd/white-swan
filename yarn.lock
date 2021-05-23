@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@aaronhayes/react-use-hubspot-form@^1.2.5":
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/@aaronhayes/react-use-hubspot-form/-/react-use-hubspot-form-1.2.5.tgz#b93daa5c67c51867f0358ffd86ccdffe106c9099"
+  integrity sha512-so0RgkH4dC64ZO7rCyNrD3Hfsy68kDBOWS8jrDn7XEaKSaaYGtQy3/Ab7HaLurHXjdAB5V+uv2uedDZGK9Oz0A==
+
 "@ampproject/toolbox-core@2.7.4", "@ampproject/toolbox-core@^2.7.1-alpha.0":
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/@ampproject/toolbox-core/-/toolbox-core-2.7.4.tgz#8355136f16301458ce942acf6c55952c9a415627"
@@ -5785,7 +5790,7 @@ react-textarea-autosize@>=7.1:
     use-composed-ref "^1.0.0"
     use-latest "^1.0.0"
 
-react-tinacms-date@^0.36.1:
+react-tinacms-date@^0.36.0:
   version "0.36.0"
   resolved "https://registry.yarnpkg.com/react-tinacms-date/-/react-tinacms-date-0.36.0.tgz#52c2016df1e18f0b0d1598c66783f846bb3f9f26"
   integrity sha512-jh+jShNsCBy4yu2qcw3iXLCL3gi6R0zaRG/WlSFAyUi+ryEmkLfpSGuEVNh67THfg7mZvKtMlj2IclMiLLfIig==
