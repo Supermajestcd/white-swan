@@ -93,7 +93,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/dementia-e1496743516102.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/Supporting-Parkinsons-Sufferers/\">Supporting Parkinson’s Sufferers</a></h6>",
+      "html": "<p><img src=\"/dementia-e1496743516102.webp\"></p><h6><a href=\"/Supporting-Parkinsons-Sufferers/\">Supporting Dementia Sufferers</a></h6>",
       "width": "thirdCenter",
       "isLinkButtons": false,
       "textColor": "#666666",
