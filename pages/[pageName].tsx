@@ -41,11 +41,11 @@ export default function Page ({ file, allPages, allBlogs, global }: Props) {
   })
 
   useEffect(() => {
-    console.log(loaded);
-    console.log(error);
-    console.log(formCreated);
-  }. [loaded, error, formCreated]);
-  
+    console.log(loaded)
+    console.log(error)
+    console.log(formCreated)
+  }, [loaded, error, formCreated])
+
   useCreatePage(allPages)
   useCreateBlogPage(allBlogs)
   const router = useRouter()
