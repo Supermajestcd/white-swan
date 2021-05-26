@@ -28,7 +28,7 @@ const formOptions = {
 interface Props {file: GitFile, allPages: string[], allBlogs: string[], global: any}
 
 export default function Page ({ file, allPages, allBlogs, global }: Props) {
-  const filename = file.fileRelativePath.split('/').pop()
+  const filename = file?.fileRelativePath.split('/').pop()
 
   generateForm(filename)
   useCreatePage(allPages)
