@@ -32,25 +32,19 @@ export default function Page ({ file, allPages, allBlogs, global }: Props) {
   let blocks = null
   let html = null
   if (file) {
-    blocks = file.data
+    blocks = file.data.blocks
     html = blocks[blocks.length - 1]?.html
   }
+
   const portalId = html ? html.match(/data-portal-id=".*"/)?.[0].split('"')[1] : ''
 
   const formId = html ? html.match(/data-form-id=".*"/)?.[0].split('"')[1] : ''
 
-  console.log('portalId', portalId, 'formId', formId);
-  const { loaded, error, formCreated } = useHubspotForm({
+  useHubspotForm({
     portalId: portalId,
     formId: formId,
     target: '#formDiv'
   })
-
-  useEffect(() => {
-    console.log(loaded)
-    console.log(error)
-    console.log(formCreated)
-  }, [loaded, error, formCreated])
 
   useCreatePage(allPages)
   useCreateBlogPage(allBlogs)
