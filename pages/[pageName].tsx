@@ -39,6 +39,7 @@ export default function Page ({ file, allPages, allBlogs, global }: Props) {
 
   const formId = html ? html.match(/data-form-id=".*"/)?.[0].split('"')[1] : ''
 
+  console.log('portalId', portalId, 'formId', formId);
   const { loaded, error, formCreated } = useHubspotForm({
     portalId: portalId,
     formId: formId,
