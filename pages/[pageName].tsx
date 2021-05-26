@@ -29,9 +29,12 @@ const formOptions = {
 interface Props {file: GitFile, allPages: string[], allBlogs: string[], global: any}
 
 export default function Page ({ file, allPages, allBlogs, global }: Props) {
-  console.log('loaded pages component');
-  const { blocks } = file.data
-  const html = blocks[blocks.length - 1].html
+  let blocks = null
+  let html = null
+  if (file) {
+    blocks = file.data
+    html = blocks[blocks.length - 1].html
+  }
   const portalId = html.match(/data-portal-id=".*"/)?.[0].split('"')[1]
   const formId = html.match(/data-form-id=".*"/)?.[0].split('"')[1]
 
