@@ -33,10 +33,11 @@ export default function Page ({ file, allPages, allBlogs, global }: Props) {
   let html = null
   if (file) {
     blocks = file.data
-    html = blocks[blocks.length - 1].html
+    html = blocks[blocks.length - 1]?.html
   }
-  const portalId = html.match(/data-portal-id=".*"/)?.[0].split('"')[1]
-  const formId = html.match(/data-form-id=".*"/)?.[0].split('"')[1]
+  const portalId = html ? html.match(/data-portal-id=".*"/)?.[0].split('"')[1] : ''
+
+  const formId = html ? html.match(/data-form-id=".*"/)?.[0].split('"')[1] : ''
 
   const { loaded, error, formCreated } = useHubspotForm({
     portalId: portalId,
