@@ -17,7 +17,7 @@ import { InlineForm, InlineBlocks } from 'react-tinacms-inline'
 import { getGlobalStaticProps } from '../utils/getGlobalStaticProps'
 import { Form, FormTemplate } from '../components/ContactForm'
 import { useHubspotForm } from '@aaronhayes/react-use-hubspot-form';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
 const formOptions = {
   label: 'Page',
@@ -29,6 +29,7 @@ const formOptions = {
 interface Props {file: GitFile, allPages: string[], allBlogs: string[], global: any}
 
 export default function Page ({ file, allPages, allBlogs, global }: Props) {
+  console.log('loaded pages component');
   const { blocks } = file.data
   const html = blocks[blocks.length - 1].html
   const portalId = html.match(/data-portal-id=".*"/)?.[0].split('"')[1]
