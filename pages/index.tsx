@@ -3,7 +3,7 @@ import { getGithubPreviewProps, parseJson } from 'next-tinacms-github'
 import { usePlugin, ModalProvider } from 'tinacms'
 import { useGithubJsonForm } from 'react-tinacms-github'
 import { GitFile } from 'react-tinacms-github/dist/src/form/useGitFileSha'
-import { Box, Flex, Grid, Heading } from '@chakra-ui/layout'
+import { Box, Flex, Grid, Heading, GridItem } from '@chakra-ui/layout'
 import { getLocalFiles } from '../utils/getLocalFiles'
 import { useCreatePage } from '../utils/useCreatePage'
 import { getGlobalStaticProps } from '../utils/getGlobalStaticProps'
@@ -26,9 +26,12 @@ const formOptions = {
 interface Props { file: GitFile, allPages: string[], allBlogs: string[], global: any, posts?: BlogPost[] }
 
 export const GridContainer = ({ innerRef, children }: { innerRef: any, children: any }) => (
-  <Grid templateColumns="1fr repeat(12, minMax(auto, 92px)) 1fr" ref={innerRef} overflow={'hidden'}>
-    {children}
-  </Grid>
+  <>
+    <Grid templateColumns="1fr repeat(12, minMax(auto, 92px)) 1fr" ref={innerRef} overflow={'hidden'}>
+      {children}
+      <div className="css-10xvv67"><div id="hubspotDiv" style={{ padding: '2.5em', paddingTop: '0' }} /></div>
+    </Grid>
+  </>
 )
 
 export default function Page ({ file, allPages, allBlogs, global, posts = [] }: Props) {

@@ -16,8 +16,7 @@ import { GridContainer } from '.'
 import { InlineForm, InlineBlocks } from 'react-tinacms-inline'
 import { getGlobalStaticProps } from '../utils/getGlobalStaticProps'
 import { Form, FormTemplate } from '../components/ContactForm'
-import { useHubspotForm } from '@aaronhayes/react-use-hubspot-form';
-import { useEffect } from 'react';
+import { generateForm } from '../utils/useHubspotFormDefs'
 
 const formOptions = {
   label: 'Page',
@@ -29,23 +28,9 @@ const formOptions = {
 interface Props {file: GitFile, allPages: string[], allBlogs: string[], global: any}
 
 export default function Page ({ file, allPages, allBlogs, global }: Props) {
-  let blocks = null
-  let html = null
-  if (file) {
-    blocks = file.data.blocks
-    html = blocks[blocks.length - 1]?.html
-  }
+  const filename = file.fileRelativePath.split('/').pop()
 
-  const portalId = html ? html.match(/data-portal-id=".*"/)?.[0].split('"')[1] : ''
-
-  const formId = html ? html.match(/data-form-id=".*"/)?.[0].split('"')[1] : ''
-
-  useHubspotForm({
-    portalId: portalId,
-    formId: formId,
-    target: '#formDiv'
-  })
-
+  generateForm(filename)
   useCreatePage(allPages)
   useCreateBlogPage(allBlogs)
   const router = useRouter()
