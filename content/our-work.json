@@ -11,28 +11,28 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/how-we-can-help-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/how-we-can-help/\">HOW WE CAN HELP</a></p>",
+      "html": "<p><a href=\"/how-we-can-help/\"><img src=\"/how-we-can-help-copy-thumbnail2.webp\"></a></p><p></p><p><a href=\"/how-we-can-help/\">HOW WE CAN HELP</a></p>",
       "width": "quarterLeft",
       "textColor": "#7ED321",
       "textAlign": "center"
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/how-we-do-it-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/how-we-do-it/\">HOW WE DO IT</a></p>",
+      "html": "<p><a href=\"/how-we-do-it/\"><img src=\"/how-we-do-it-copy-thumbnail2.webp\"></a></p><p></p><p><a href=\"/how-we-do-it/\">HOW WE DO IT</a></p>",
       "width": "quarterCenterLeft",
       "textColor": "#7ED321",
       "textAlign": "center"
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/who-we-work-with-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/who-we-work-with/\">WHO WE WORK WITH</a></p>",
+      "html": "<p><a href=\"/who-we-work-with/\"><img src=\"/who-we-work-with-copy-thumbnail2.webp\"></a></p><p></p><p><a href=\"/who-we-work-with/\">WHO WE WORK WITH</a></p>",
       "width": "quarterCenterRight",
       "textColor": "#7ED321",
       "textAlign": "center"
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/case-studies-copy-thumbnail2.webp\"></p><p></p><p><a href=\"/case-studies/\">CASE STUDIES</a></p>",
+      "html": "<p><a href=\"/case-studies/\"><img src=\"/case-studies-copy-thumbnail2.webp\"></a></p><p></p><p><a href=\"/case-studies/\">CASE STUDIES</a></p>",
       "width": "quarterRight",
       "textColor": "#7ED321",
       "textAlign": "center"
