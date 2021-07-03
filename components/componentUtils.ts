@@ -50,6 +50,26 @@ export const widths = {
   thirdRight: {
     name: 'thirdRight',
     val: 'span 4 / 14'
+  },
+  firstFifth: {
+    name: 'firstFifth',
+    val: '3 / span 2'
+  },
+  secondFifth: {
+    name: 'secondFifth',
+    val: '5 / span 2'
+  },
+  thirdFifth: {
+    name: 'thirdFifth',
+    val: '7 / span 2'
+  },
+  fourthFifth: {
+    name: 'fourthFifth',
+    val: '9 / span 2'
+  },
+  fifthFifth: {
+    name: 'fifthFifth',
+    val: '11 / span 2'
   }
 }
 
