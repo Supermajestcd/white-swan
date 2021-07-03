@@ -69,14 +69,29 @@
         "id": "bszdajk0j",
         "navigation": [
           {
-            "name": "Trustee Annual Report",
-            "link": "/trustee-annual-report",
-            "id": "3fxbyx7is"
+            "name": "Our Mission",
+            "link": "/our-mission",
+            "id": "4wzt2sh6b"
+          },
+          {
+            "name": "Our Work",
+            "link": "/our-work",
+            "id": "exmvr7trg"
+          },
+          {
+            "name": "Our Team",
+            "link": "/our-team",
+            "id": "hiq9zvrrl"
           },
           {
             "name": "Million Minds",
             "link": "/million-minds-helping-those-suffering-undiagnosed-find-a-diagnosis",
             "id": "doz127hx9"
+          },
+          {
+            "name": "Our Achievements",
+            "link": "/trustee-annual-report",
+            "id": "3fxbyx7is"
           }
         ]
       },
