@@ -32,12 +32,50 @@
         "name": "About Us",
         "link": "/whiteswan",
         "id": "bszdajk0j",
-        "navigation": []
+        "navigation": [
+          {
+            "name": "Trustee Annual Report",
+            "link": "/trustee-annual-report",
+            "id": "3fxbyx7is"
+          },
+          {
+            "name": "Million Minds",
+            "link": "/million-minds-helping-those-suffering-undiagnosed-find-a-diagnosis",
+            "id": "doz127hx9"
+          }
+        ]
       },
       {
         "name": "Our Work",
         "link": "/our-work",
-        "id": "7r9d4ixin"
+        "id": "7r9d4ixin",
+        "navigation": [
+          {
+            "name": "Partners",
+            "link": "/partners",
+            "id": "fbseffdk2"
+          },
+          {
+            "name": "How We Can Help",
+            "link": "/how-we-can-help",
+            "id": "rz8jno1qa"
+          },
+          {
+            "name": "How We Do It",
+            "link": "/how-we-do-it",
+            "id": "y80rjoigw"
+          },
+          {
+            "name": "Who We Work With",
+            "link": "/who-we-work-with",
+            "id": "883ktuqo6"
+          },
+          {
+            "name": "Case Studies",
+            "link": "/case-studies",
+            "id": "0v38emyrb"
+          }
+        ]
       },
       {
         "name": "Get Involved",
