@@ -4,7 +4,14 @@
       {
         "name": "Home",
         "link": "/",
-        "id": "lauzulb5x"
+        "id": "lauzulb5x",
+        "navigation": [
+          {
+            "name": "About Us",
+            "link": "/about-us",
+            "id": "kkdm1a42h"
+          }
+        ]
       },
       {
         "name": "About Us",
