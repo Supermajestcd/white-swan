@@ -8,8 +8,23 @@
         "navigation": [
           {
             "name": "About Us",
-            "link": "/about-us",
+            "link": "/whiteswan",
             "id": "kkdm1a42h"
+          },
+          {
+            "name": "Our Story",
+            "link": "/our-story",
+            "id": "8el1bolqd"
+          },
+          {
+            "name": "Our Work",
+            "link": "/how-we-can-help",
+            "id": "hg11cks71"
+          },
+          {
+            "name": "Our Blog",
+            "link": "/blog",
+            "id": "gyn6g0npq"
           }
         ]
       },
