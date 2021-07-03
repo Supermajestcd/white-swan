@@ -3,7 +3,7 @@
   "blocks": [
     {
       "_template": "textContent",
-      "html": "<p></p><h1>Welcome to White Swan</h1><p></p><p>We are a registered charity with a mission to improve the health of society<br>through technology and analytics.</p><p></p><p></p><p><a href=\"\" title=\"\">LEARN MORE</a></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>",
+      "html": "<p></p><h1>Welcome to White Swan</h1><p></p><p>We are a registered charity with a mission to improve the health of society<br>through technology and analytics.</p><p></p><p></p><p><a href=\"/our-story\">LEARN MORE</a></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>",
       "width": "full",
       "bgColor": "#4A90E2",
       "textAlign": "center",
