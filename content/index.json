@@ -37,7 +37,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/funding-thumbnail.webp\"></p><p></p><p><a href=\"trustees-annual-report\">OUR ACHIEVEMENTS</a></p>",
+      "html": "<p><img src=\"/funding-thumbnail.webp\"></p><p></p><p><a href=\"trustee-annual-report\">OUR ACHIEVEMENTS</a></p>",
       "width": "quarterCenterRight",
       "textColor": "#7ED321",
       "textAlign": "center"
