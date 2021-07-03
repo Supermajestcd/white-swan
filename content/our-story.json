@@ -23,6 +23,15 @@
       "isLinkButtons": false,
       "textColor": "#666666",
       "padding": "0"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p></p><p><img src=\"/mission-thumbnail.webp\"></p><p></p><p>OUR MISSION</p>",
+      "width": "quarterLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
     }
   ]
 }
