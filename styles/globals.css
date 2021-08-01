@@ -31,3 +31,10 @@ h6 a {
   color: #666666 !important;
   font-weight: 400 !important;
 }
+
+.case img {
+  float: left;
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
