@@ -5,63 +5,7 @@
         "name": "Home",
         "link": "/",
         "id": "lauzulb5x",
-        "navigation": [
-          {
-            "name": "Our Story",
-            "link": "/our-story",
-            "id": "8el1bolqd"
-          },
-          {
-            "name": "Our Mission",
-            "link": "/our-mission",
-            "id": "z7oele287"
-          },
-          {
-            "name": "Our Team",
-            "link": "/our-team",
-            "id": "sdq00zz5w"
-          },
-          {
-            "name": "Our Achievements",
-            "link": "/trustee-annual-report",
-            "id": "uvikwzazi"
-          },
-          {
-            "name": "Million Minds",
-            "link": "/million-minds-helping-those-suffering-undiagnosed-find-a-diagnosis",
-            "id": "c4oi5tnkv"
-          },
-          {
-            "name": "Our Work",
-            "link": "/how-we-can-help",
-            "id": "hg11cks71"
-          },
-          {
-            "name": "How We Can Help",
-            "link": "/how-we-can-help",
-            "id": "kxxcnl9xe"
-          },
-          {
-            "name": "How We Do It",
-            "link": "/how-we-do-it",
-            "id": "miwehwb82"
-          },
-          {
-            "name": "Who We Work With",
-            "link": "/who-we-work-with",
-            "id": "v0l6z0yt9"
-          },
-          {
-            "name": "Case Studies",
-            "link": "/case-studies",
-            "id": "56subkpoh"
-          },
-          {
-            "name": "Our Blog",
-            "link": "/blog",
-            "id": "gyn6g0npq"
-          }
-        ]
+        "navigation": []
       },
       {
         "name": "Our Story",
