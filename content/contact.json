@@ -21,6 +21,15 @@
     },
     {
       "_template": "form"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p>Follow Us</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
     }
   ]
 }
