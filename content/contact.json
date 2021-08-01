@@ -24,7 +24,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p>Follow Us</p>",
+      "html": "<p>Follow Us</p><p></p><div class=\"social\"><a href=https://twitter.com/WhiteSwan4Good?ref_src=twsrc%5Etfw class=\"twitter-follow-button\" data-show-count=\"false\">Follow @WhiteSwan4Good</a><script async src=https://platform.twitter.com/widgets.js charset=\"utf-8\"></script><script src=https://platform.linkedin.com/in.js type=\"text/javascript\"> lang: en_US</script>\n<script type=\"IN/FollowCompany\" data-id=\"11157590\" data-counter=\"bottom\"></script></div>",
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
