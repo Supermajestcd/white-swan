@@ -5,6 +5,7 @@ import { useGithubJsonForm } from 'react-tinacms-github'
 import { ReactNode } from 'react'
 import { Container } from './styles'
 import { headerForm } from './headerForm'
+import ReactGA from 'react-ga'
 
 interface Props {
   children: ReactNode,
@@ -15,6 +16,9 @@ const dummyGlobal = {
     file: {}
   }
 }
+
+const TRACKING_ID = 'G-7S5X8GGLGL';
+ReactGA.initialize(TRACKING_ID)
 
 export const Layout = ({ children, global = dummyGlobal }: Props) => {
   const [data, hForm] = useGithubJsonForm(global.props.file, headerForm)
