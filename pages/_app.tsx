@@ -9,7 +9,6 @@ import {
 } from 'react-tinacms-github'
 import { NextGithubMediaStore } from 'next-tinacms-github'
 import { DateFieldPlugin } from 'react-tinacms-date'
-import ReactGA from 'react-ga';
 
 const sizes = {
   sm: '400px',
@@ -21,7 +20,6 @@ const sizes = {
 const theme: any = extendTheme({ sizes })
 
 const TRACKING_ID = 'G-7S5X8GGLGL'
-ReactGA.initialize(TRACKING_ID)
 const onLogin = async () => {
   const token = localStorage.getItem('tinacms-github-token') || null
   const headers = new Headers()
@@ -83,6 +81,22 @@ export default class Site extends App {
           <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <title>{pageProps.file?.data?.title}</title>
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${TRACKING_ID}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `
+            }}
+          />
         </Head>
         <TinacmsGithubProvider
           onLogin={onLogin}
