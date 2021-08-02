@@ -3,6 +3,7 @@ import { Flex, Box, useMediaQuery, Menu, MenuList, MenuItem, MenuButton, Link as
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { ImageComponent } from '../Image'
+import * as ga from '../../utils/ga';
 
 interface NavItem {
   name: string
@@ -62,6 +63,22 @@ const LargerNavItem = ({ name, link, navigation, id }: NavItem) => {
 
 export const Header = ({ data }: Props) => {
   const router = useRouter()
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      ga.pageview(url)
+    }
+    // When the component is mounted, subscribe to router changes
+    // and log those page views
+    router.events.on('routeChangeComplete', handleRouteChange)
+
+    // If the component is unmounted, unsubscribe
+    // from the event with the `off` method
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
+
   const [isLargeScreen] = useMediaQuery('(min-width: 900px)')
   const [Nav, setNav] = useState(null)
   useEffect(() => {

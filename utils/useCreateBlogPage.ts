@@ -1,14 +1,30 @@
-
+import { useEffect } from 'react'
 import { useCMS, usePlugins } from 'tinacms'
 import { useRouter } from 'next/router'
 import slugify from 'slugify'
 import { FORM_ERROR } from 'final-form'
 import { removeInvalidChars } from './removeInvalidChars'
 import { setCachedFormData, getCachedFormData } from './formCache'
-
+import * as ga from '../utils/ga'
 export const useCreateBlogPage = (allBlogs = []) => {
   const router = useRouter()
   const cms = useCMS()
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      ga.pageview(url)
+    }
+    // When the component is mounted, subscribe to router changes
+    // and log those page views
+    router.events.on('routeChangeComplete', handleRouteChange)
+
+    // If the component is unmounted, unsubscribe
+    // from the event with the `off` method
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
+
   usePlugins([
     {
       __type: 'content-creator',
