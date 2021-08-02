@@ -9,6 +9,7 @@ import {
 } from 'react-tinacms-github'
 import { NextGithubMediaStore } from 'next-tinacms-github'
 import { DateFieldPlugin } from 'react-tinacms-date'
+import ReactGA from 'react-ga';
 
 const sizes = {
   sm: '400px',
@@ -19,6 +20,8 @@ const sizes = {
 
 const theme: any = extendTheme({ sizes })
 
+const TRACKING_ID = 'G-7S5X8GGLGL'
+ReactGA.initialize(TRACKING_ID)
 const onLogin = async () => {
   const token = localStorage.getItem('tinacms-github-token') || null
   const headers = new Headers()
