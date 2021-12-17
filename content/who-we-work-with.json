@@ -66,6 +66,14 @@
     },
     {
       "_template": "textContent",
+      "html": "<p>Add text here</p>",
+      "width": "halfRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    },
+    {
+      "_template": "textContent",
       "html": "<p></p><p></p><p>Learn more about our work here:</p>",
       "width": "container",
       "isLinkButtons": false,
