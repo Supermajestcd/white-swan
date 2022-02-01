@@ -23,7 +23,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/Alzheimers-Society-Referrals.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/insights-into-treatment-pathways-for-a-complex-condition/\">Insights into treatment pathways for a complex condition</a></h6>",
+      "html": "<p><img src=\"/Insights into treatment pathways for a complex condition.png\"></p><h6 style=\"padding: 20px\"><a href=\"/insights-into-treatment-pathways-for-a-complex-condition/\">Insights into treatment pathways for a complex condition</a></h6>",
       "width": "thirdLeft",
       "isLinkButtons": false,
       "textColor": "#666666",
