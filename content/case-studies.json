@@ -23,6 +23,16 @@
     },
     {
       "_template": "textContent",
+      "html": "<p><img src=\"/Alzheimers-Society-Referrals.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/insights-into-treatment-pathways-for-a-complex-condition/\">Insights into treatment pathways for a complex condition</a></h6>",
+      "width": "thirdLeft",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
       "html": "<p><img src=\"/Alzheimers-Society-Referrals.webp\"></p><h6 style=\"padding: 20px\"><a href=\"/analysing-the-needs-of-people-with-dementia/\">Analysing the needs of people with dementia</a></h6>",
       "width": "thirdLeft",
       "isLinkButtons": false,
