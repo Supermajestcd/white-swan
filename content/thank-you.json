@@ -1,1 +1,13 @@
-{"title":"Thank You"}
+{
+  "title": "Thank You",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p>Thank you!</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    }
+  ]
+}
