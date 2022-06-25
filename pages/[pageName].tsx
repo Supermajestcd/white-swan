@@ -17,8 +17,8 @@ import { InlineForm, InlineBlocks } from 'react-tinacms-inline'
 import { getGlobalStaticProps } from '../utils/getGlobalStaticProps'
 import { Form, FormTemplate } from '../components/ContactForm'
 import { generateForm } from '../utils/useHubspotFormDefs'
-import {useEffect} from "react";
-import * as ga from "../utils/ga";
+import { useEffect } from 'react'
+import * as ga from '../utils/ga'
 
 const formOptions = {
   label: 'Page',
