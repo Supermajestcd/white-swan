@@ -13,7 +13,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p>Thank you for contacting in us.<br><br>We will be in touch with you shortly.</p>",
+      "html": "<p>Thank you for taking the time to contact us. We will be in touch with you shortly.</p>",
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
