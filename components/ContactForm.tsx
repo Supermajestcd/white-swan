@@ -13,7 +13,7 @@ export const Form = ({ index }: Props) => {
         <form
           name="contact"
           method="post"
-          action="/thank-you/"
+          action="/contact-thank-you/"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
