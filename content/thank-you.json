@@ -13,19 +13,12 @@
     },
     {
       "_template": "textContent",
-      "html": "<p></p>",
+      "html": "<p>Thank you for requesting a copy of this case study. Within the next few days you will receive a PDF copy of the study via email.<br><br>If you would like to talk to us about this case study, or have any questions about working or volunteering with us, email us at hello@whiteswan.org.uk.<br><br>(If the report does not arrive within the next 5 working days please check your spam inbox.)</p>",
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
-      "padding": "10"
-    },
-    {
-      "_template": "textContent",
-      "html": "<p>Add text here</p>",
-      "width": "container",
-      "isLinkButtons": false,
-      "textColor": "#666666",
-      "padding": "10"
+      "padding": "10",
+      "textAlign": "center"
     }
   ]
 }
