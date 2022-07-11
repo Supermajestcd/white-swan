@@ -3,7 +3,23 @@
   "blocks": [
     {
       "_template": "textContent",
-      "html": "<p>Thank you!</p>",
+      "html": "<p>Thank you!</p><p><img src=\"/White Swan_Case Study Thank you Page Submission Banner.jpg\"></p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p>Add text here</p>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p>Add text here</p>",
       "width": "container",
       "isLinkButtons": false,
       "textColor": "#666666",
