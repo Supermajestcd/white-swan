@@ -1,0 +1,31 @@
+{
+  "title": "Analysing The Needs of Fibromyalgia Sufferers",
+  "blocks": [
+    {
+      "_template": "textContent",
+      "html": "<p></p>",
+      "width": "full",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "20",
+      "backgroundImg": "/dementia-e1496743516102.webp"
+    },
+    {
+      "_template": "textContent",
+      "html": "<h1 class=\"headline text-center\">Analysing The Needs of Fibromyalgia Sufferers</h1>",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10",
+      "textAlign": "center"
+    },
+      "html":, "<p><strong>The Challenge:</strong><br>Dr Anushka Soni of Oxford University and Nuffield Trust provided us with a wish list of questions, which, if answered, could help improve fibromyalgia patients’ diagnostic journey and care. Fibromyalgia is a condition characterised by chronic, widespread pain which can also put significant pressure on their mental health.</p><p></p><p><strong>What We Did:</strong><br>Our volunteer team applied proprietary technology and advanced analytics processes to analyse the content of millions of social conversations on Twitter, Reddit and other discussion forums like Health Unlocked, to deliver insights about patients’ lived experience of fibromyalgia, their treatment experience and support networks.</p><p></p><p><strong>The Results:</strong><br>The sample size of 714,000 conversations, and clear usability of the insights generated, provides a valuable source of information for those involved in patient care and research & development. Key insight areas included: ways clinicians can help patients to prevent symptom flares, improving understanding about the impact that chronic conditions have on mental health, refining communication to patients, and an in-depth overview of patients’ experiences of their wide range of symptoms. Dr Anushka Soni is including the research in an academic paper which, when published, will aid in sharing the insight to a wide network of doctors and potentially patients.</p>",
+    {
+      "_template": "textContent",
+      "width": "container",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "10"
+    }
+  ]
+}

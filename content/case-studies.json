@@ -130,6 +130,16 @@
       "padding": "0",
       "boxShadow": true,
       "textAlign": "center"
+    },
+    {
+      "_template": "textContent",
+      "html": "<p><img src=\"/fibromyalgia_image.jpg\"></p><h6 style=\"padding: 20px\"><a href=\"/analysing-fibromyalgia-needs/\">Analysing The Needs of Fibromyalgia Sufferers</a></h6>",
+      "width": "thirdRight",
+      "isLinkButtons": false,
+      "textColor": "#666666",
+      "padding": "0",
+      "boxShadow": true,
+      "textAlign": "center"
     }
   ]
 }
