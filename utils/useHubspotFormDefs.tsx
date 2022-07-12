@@ -7,7 +7,8 @@ export const generateForm = (filename: string) => {
     'disease-progression-predictors.json': { portalId: '4905990', formId: '3995f2cd-d1d7-436e-ae98-c28077896709' },
     'worry-and-rumination-social-analysis.json': { portalId: '4905990', formId: 'cd8eb637-39aa-4c20-ba2d-0ecd6e0f8750' },
     'improving-diagnosis-and-treatment-for-back-pain.json': { portalId: '4905990', formId: '52422817-36fb-4841-806d-3240509a7576' },
-    'supporting-parkinsons-sufferers.json': { portalId: '4905990', formId: '4a862623-4411-45b6-9ef5-0a5980dc2703' }
+    'supporting-parkinsons-sufferers.json': { portalId: '4905990', formId: '4a862623-4411-45b6-9ef5-0a5980dc2703' },
+    'analysing-fibromyalgia-needs.json': { portalId: '4905990', formId: 'bbabac64-a984-48dc-ab23-266ef7f332e8' }
   })
 
   if (formDefs.current[filename]) {
