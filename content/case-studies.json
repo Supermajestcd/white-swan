@@ -23,7 +23,7 @@
     },
     {
       "_template": "textContent",
-      "html": "<p><img src=\"/bayers-case-study-header.jpg\"></p><h6 style=\"padding: 20px\"><a href=\"/helping-bayer-improve-clinical-trial-design/\">Helping Bayer to improve clinical trial design for a chronic condition that impacts patients' quality of life</a></h6>",
+      "html": "<p><img src=\"/bayers-case-study-header.png\"></p><h6 style=\"padding: 20px\"><a href=\"/helping-bayer-improve-clinical-trial-design/\">Helping Bayer to improve clinical trial design for a chronic condition that impacts patients' quality of life</a></h6>",
       "width": "thirdLeft",
       "isLinkButtons": false,
       "textColor": "#666666",
