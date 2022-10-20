@@ -19,7 +19,6 @@ export interface BlogPost {
 interface Props {file: GitFile, posts: BlogPost[], global: any}
 
 export default function Page ({ posts, global }: Props) {
-  console.log(posts);
   return (
     <Layout global={global}>
         <Box maxW='xl' justifyContent='center' m='auto' p='10'>
