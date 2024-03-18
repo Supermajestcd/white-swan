@@ -18,7 +18,7 @@
     "next": "10.0.6",
     "next-compose-plugins": "^2.2.1",
     "next-img": "^0.3.2",
-    "next-tinacms-github": "^0.36.1",
+    "next-tinacms-github": "^1.2.2",
     "next-tinacms-json": "^0.36.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
