@@ -15,9 +15,9 @@
     "dotenv": "^8.2.0",
     "emotion-theming": "^11.0.0",
     "framer-motion": "^3.2.2-rc.1",
-    "next": "10.0.6",
+    "next": "12.2.3",
     "next-compose-plugins": "^2.2.1",
-    "next-img": "^0.3.2",
+    "next-img": "^0.4.3",
     "next-tinacms-github": "^0.36.1",
     "next-tinacms-json": "^0.36.1",
     "react": "17.0.1",
@@ -29,7 +29,7 @@
     "react-tinacms-github": "^0.36.1",
     "react-tinacms-inline": "^0.36.1",
     "slugify": "^1.4.6",
-    "styled-components": "^5.2.1",
+    "styled-components": "^6.1.0",
     "tinacms": "^0.36.1"
   },
   "devDependencies": {
