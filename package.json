@@ -30,7 +30,7 @@
     "react-tinacms-inline": "^0.36.1",
     "slugify": "^1.4.6",
     "styled-components": "^5.2.1",
-    "tinacms": "^0.36.1"
+    "tinacms": "^0.50.0"
   },
   "devDependencies": {
     "@types/node": "^14.14.22",
